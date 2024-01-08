@@ -17,7 +17,7 @@ export const AuthedSide = styled.aside`
   flex-flow: column;
   place-content: space-between;
 
-  width: 280px;
+  min-width: 280px;
   min-height: 100%;
 
   background-color: var(--backgroundDarker);

@@ -28,6 +28,7 @@ export const PlayersList = styled.ul`
 
 export const CharactersList = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 
   > li {

@@ -25,6 +25,23 @@ export const Topbar = styled.header`
   > ul {
     display: flex;
   }
+
+  @media (max-width: 600px) {
+    position: static;
+
+    > p {
+      display: none;
+    }
+
+    > ul {
+      width: 100%;
+      min-height: 100vh;
+      max-height: 100vh;
+      overflow: hidden auto;
+
+      flex-flow: column;
+    }
+  }
 `
 
 interface MenuItemProps {
@@ -46,6 +63,10 @@ export const MenuItem = styled.li<MenuItemProps>`
 
     &:hover {
       background-color: var(--primaryButtonBackground);
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
     }
   }
 `
