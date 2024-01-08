@@ -1,0 +1,7 @@
+export * from './Form.props'
+export * from './User.props'
+export * from './Places.props'
+export * from './Pokemon.props'
+export * from './Roll.props'
+export * from './Player.props'
+export * from './Characeter.props'
