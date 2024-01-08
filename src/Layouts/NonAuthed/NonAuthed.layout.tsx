@@ -15,7 +15,7 @@ export const NonAuthedLayout: FC<{ children: ReactNode }> = ({ children }) => {
     (location.pathname.replace('/', '').toUpperCase() as ROUTES_KEYS) || 'HOME'
 
   useEffect(() => {
-    document.title = `${SITE_TITLE}${ROUTES[locationKey].TITLE}`
+    document.title = `${SITE_TITLE}${ROUTES[locationKey].TITLE || ''}`
   }, [location])
 
   return (

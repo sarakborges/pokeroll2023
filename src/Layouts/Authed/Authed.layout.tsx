@@ -17,7 +17,9 @@ export const AuthedLayout: FC<{ children: ReactNode }> = ({ children }) => {
       .toUpperCase() as BACKOFFICE_ROUTES_KEYS) || 'HOME'
 
   useEffect(() => {
-    document.title = `${SITE_TITLE}${BACKOFFICE_ROUTES[locationKey].TITLE}`
+    document.title = `${SITE_TITLE}${
+      BACKOFFICE_ROUTES[locationKey].TITLE || ''
+    }`
   }, [location])
 
   return (

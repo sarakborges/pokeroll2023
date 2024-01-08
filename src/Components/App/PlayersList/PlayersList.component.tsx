@@ -17,7 +17,7 @@ export const PlayersList: FC<{ playersList: PlayerProps[] }> = ({
             <Text size="lg">{playerItem.name}</Text>
           </Styled.PlayersTitle>
 
-          {playerItem.characters.length > 0 && (
+          {!!playerItem?.characters?.length && (
             <Styled.CharactersList>
               {playerItem.characters.map((characterItem) => (
                 <li key={characterItem.name}>

@@ -1,11 +1,21 @@
 import { ROUTES, BACKOFFICE_ROUTES } from '@/Utils/Constants'
 
-export type MENU_KEYS = 'HOME' | 'PLAYERS' | 'BACKOFFICE'
+export type MENU_KEYS = 'HOME' | 'PLAYERS' | 'BACKOFFICE' | 'DIES' | 'POKEMON'
 
 export const MENU = {
   HOME: {
     PATH: ROUTES.HOME.PATH,
-    TITLE: 'Rolagens'
+    TITLE: 'Início'
+  },
+
+  DIES: {
+    PATH: ROUTES.DIES.PATH,
+    TITLE: 'Rolagens de dados'
+  },
+
+  POKEMON: {
+    PATH: ROUTES.POKEMON.PATH,
+    TITLE: 'Rolagens de pokémon'
   },
 
   PLAYERS: {

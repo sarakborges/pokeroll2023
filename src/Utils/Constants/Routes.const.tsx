@@ -5,13 +5,24 @@ export type ROUTES_KEYS = 'HOME' | 'PLAYERS'
 export const ROUTES = {
   HOME: {
     PATH: '/',
-    TITLE: ' - Rolagens',
+    ELEMENT: <RollsPage />
+  },
+
+  DIES: {
+    PATH: '/dies',
+    TITLE: ' - Rolagens de dados',
+    ELEMENT: <RollsPage />
+  },
+
+  POKEMON: {
+    PATH: '/pokemon',
+    TITLE: ' - Rolagens de pokémon',
     ELEMENT: <RollsPage />
   },
 
   PLAYERS: {
     PATH: '/players',
-    TITLE: ' - Fichas',
+    TITLE: ' - Fichário',
     ELEMENT: <PlayersPage />
   }
 }
