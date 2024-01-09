@@ -26,6 +26,7 @@ type MoveProps = {
 
 export type PokemonProps = {
   id: number
+  sprite: string
   name: string
   types: Types[]
   abilities: string[]

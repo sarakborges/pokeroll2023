@@ -1,5 +1,7 @@
 import { FC } from 'react'
 
+import { DIES_HEADER } from '@/Utils/Texts'
+
 import { NonAuthedLayout } from '@/Layouts'
 
 import { Header } from '@/Components/App'
@@ -10,7 +12,7 @@ export const DiesTemplate: FC = () => {
   return (
     <NonAuthedLayout>
       <Styled.DiesTemplate>
-        <Header>Rolagens de dados - Work in progress</Header>
+        <Header>{DIES_HEADER}</Header>
       </Styled.DiesTemplate>
     </NonAuthedLayout>
   )

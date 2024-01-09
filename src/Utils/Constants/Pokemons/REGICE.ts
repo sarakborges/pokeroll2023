@@ -1,0 +1,54 @@
+export const REGICE = {
+        id: 'REGICE',
+        number: '378',
+        sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png',
+        name: 'Regice',
+        types: ['ice'],
+        abilities: ['Clear Body','Ice Body'],
+        movepool: [{
+          name: 'Icy Wind',
+          level: '1'
+        },{
+          name: 'Charge Beam',
+          level: '1'
+        },{
+          name: 'Bulldoze',
+          level: '6'
+        },{
+          name: 'Ancient Power',
+          level: '12'
+        },{
+          name: 'Stomp',
+          level: '18'
+        },{
+          name: 'Ice Beam',
+          level: '24'
+        },{
+          name: 'Curse',
+          level: '30'
+        },{
+          name: 'Amnesia',
+          level: '36'
+        },{
+          name: 'Hammer Arm',
+          level: '42'
+        },{
+          name: 'Blizzard',
+          level: '48'
+        },{
+          name: 'Superpower',
+          level: '54'
+        },{
+          name: 'Lock On',
+          level: '60'
+        },{
+          name: 'Zap Cannon',
+          level: '66'
+        },{
+          name: 'Hyper Beam',
+          level: '72'
+        },{
+          name: 'Explosion',
+          level: '78'
+        }],
+      }

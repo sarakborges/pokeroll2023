@@ -1,5 +1,7 @@
 import { FC } from 'react'
 
+import { HOME_HEADER } from '@/Utils/Texts'
+
 import { NonAuthedLayout } from '@/Layouts'
 
 import { Header } from '@/Components/App'
@@ -10,7 +12,7 @@ export const HomeTemplate: FC = () => {
   return (
     <NonAuthedLayout>
       <Styled.HomeTemplate>
-        <Header>Home - Work in progress</Header>
+        <Header>{HOME_HEADER}</Header>
       </Styled.HomeTemplate>
     </NonAuthedLayout>
   )

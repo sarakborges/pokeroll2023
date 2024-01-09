@@ -47,7 +47,7 @@ export const RollsTemplate: FC = () => {
         <RollsList />
 
         <Pagination
-          pagesLink={ROUTES.HOME.PATH}
+          pagesLink={ROUTES.POKEMON.PATH}
           totalPages={rollsState.totalPages}
           currentPage={rollsState.currentPage}
         />

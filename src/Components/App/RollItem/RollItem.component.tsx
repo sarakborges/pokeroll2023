@@ -1,14 +1,9 @@
 import { FC } from 'react'
 
-import { RollProps } from '@/Utils/Props'
+import { PokemonProps, RollProps } from '@/Utils/Props'
 import { getDate } from '@/Utils/Functions'
 
-import {
-  PLACES,
-  POKEMONS,
-  POKEMON_GENDERS,
-  SEREBII_URI
-} from '@/Utils/Constants'
+import { PLACES, POKEMONS, POKEMON_GENDERS } from '@/Utils/Constants'
 
 import {
   FOUND_AT,
@@ -27,11 +22,15 @@ export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
 
   const rollDate = getDate(time)
 
-  const pokemonData = POKEMONS.find(
-    (pokemonItem) => pokemonItem.name.toUpperCase() === pokemon
+  const pokemonData: PokemonProps = POKEMONS.find(
+    (pokemonItem) => pokemonItem.id.toUpperCase() === pokemon
   )
 
-  const { id, name, types, abilities, movepool } = pokemonData!
+  if (!pokemonData) {
+    return <></>
+  }
+
+  const { sprite, name, types, abilities, movepool } = pokemonData!
 
   const moveset = [...movepool.filter((moveItem) => moveItem.level <= level)]
     .slice(-4)
@@ -63,11 +62,7 @@ export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
             <>{POKEMON_GENDERS[gender]}</>
           </Text>
 
-          <Picture
-            src={`${SEREBII_URI}scarletviolet/pokemon/new/${id}.png`}
-            alt={name}
-            w={100}
-          />
+          <Picture src={sprite} alt={name} w={100} />
 
           <Styled.TypesWrapper>
             {types.map((typeItem) => (

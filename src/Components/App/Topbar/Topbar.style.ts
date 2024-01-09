@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+const Breakpoint = '1000px'
+
 export const NonAuthedLayout = styled.div`
   display: flex;
   flex-flow: column;
@@ -26,7 +28,7 @@ export const Topbar = styled.header`
     display: flex;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: ${Breakpoint}) {
     position: static;
 
     > p {
@@ -65,7 +67,7 @@ export const MenuItem = styled.li<MenuItemProps>`
       background-color: var(--primaryButtonBackground);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: ${Breakpoint}) {
       width: 100%;
     }
   }
