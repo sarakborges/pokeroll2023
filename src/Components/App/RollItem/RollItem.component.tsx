@@ -22,7 +22,7 @@ export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
 
   const rollDate = getDate(time)
 
-  const pokemonData: PokemonProps = POKEMONS.find(
+  const pokemonData: PokemonProps | undefined = POKEMONS.find(
     (pokemonItem) => pokemonItem.id.toUpperCase() === pokemon
   )
 
