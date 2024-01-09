@@ -8,7 +8,10 @@ export const NonAuthedLayout = styled.div`
   gap: 24px;
 `
 
-export const Topbar = styled.header`
+interface TopbarProps {
+  isOpen: boolean
+}
+export const Topbar = styled.header<TopbarProps>`
   position: sticky;
   left: 0;
   top: 0;
@@ -20,28 +23,61 @@ export const Topbar = styled.header`
 
   background-color: var(--backgroundDarker);
 
-  > p {
-    padding: 24px;
+  > section {
+    > p {
+      padding: 24px;
+    }
   }
 
   > ul {
     display: flex;
   }
 
-  @media (max-width: ${Breakpoint}) {
-    position: static;
+  @media (min-width: ${Breakpoint}) {
+    > section {
+      > button {
+        display: none;
+      }
+    }
+  }
 
-    > p {
-      display: none;
+  @media (max-width: ${Breakpoint}) {
+    flex-flow: column;
+
+    > section {
+      display: flex;
+      place-content: space-between;
+      place-items: center;
+
+      width: 100%;
+      padding: 16px;
+
+      > button {
+        aspect-ratio: 1;
+
+        > svg {
+          width: 48px;
+        }
+      }
+
+      > p {
+        padding: 0 12px;
+      }
     }
 
     > ul {
       width: 100%;
       min-height: 100vh;
       max-height: 100vh;
+
+      min-height: ${({ isOpen }) => (isOpen ? '100vh' : '0')};
+      max-height: ${({ isOpen }) => (isOpen ? '100vh' : '0')};
+
       overflow: hidden auto;
 
       flex-flow: column;
+
+      transition: min-height 0.3s, max-height 0.3s;
     }
   }
 `
