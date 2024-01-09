@@ -1,4 +1,6 @@
-export const GOURGEIST_AVERAGE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GOURGEIST_AVERAGE: PokemonProps = {
         id: 'GOURGEIST_AVERAGE',
         number: '711',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png',

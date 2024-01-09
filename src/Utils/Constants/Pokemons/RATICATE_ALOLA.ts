@@ -1,4 +1,6 @@
-export const RATICATE_ALOLA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RATICATE_ALOLA: PokemonProps = {
         id: 'RATICATE_ALOLA',
         number: '10092',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png',

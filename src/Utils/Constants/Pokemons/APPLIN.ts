@@ -1,4 +1,6 @@
-export const APPLIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const APPLIN: PokemonProps = {
         id: 'APPLIN',
         number: '840',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png',

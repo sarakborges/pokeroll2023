@@ -1,4 +1,6 @@
-export const KRICKETUNE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KRICKETUNE: PokemonProps = {
         id: 'KRICKETUNE',
         number: '402',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png',

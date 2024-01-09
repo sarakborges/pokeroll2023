@@ -1,4 +1,6 @@
-export const TYRANITAR_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYRANITAR_MEGA: PokemonProps = {
         id: 'TYRANITAR_MEGA',
         number: '10049',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png',

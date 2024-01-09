@@ -1,4 +1,6 @@
-export const ELECTRODE_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ELECTRODE_HISUI: PokemonProps = {
         id: 'ELECTRODE_HISUI',
         number: '10232',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10232.png',

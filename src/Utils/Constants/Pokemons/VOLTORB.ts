@@ -1,4 +1,6 @@
-export const VOLTORB = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VOLTORB: PokemonProps = {
         id: 'VOLTORB',
         number: '100',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png',

@@ -1,4 +1,6 @@
-export const AGGRON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AGGRON: PokemonProps = {
         id: 'AGGRON',
         number: '306',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png',

@@ -1,4 +1,6 @@
-export const KORAIDON_GLIDING_BUILD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KORAIDON_GLIDING_BUILD: PokemonProps = {
         id: 'KORAIDON_GLIDING_BUILD',
         number: '10267',
         sprite: 'null',

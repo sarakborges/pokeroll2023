@@ -1,4 +1,6 @@
-export const HOOPA_UNBOUND = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HOOPA_UNBOUND: PokemonProps = {
         id: 'HOOPA_UNBOUND',
         number: '10086',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png',

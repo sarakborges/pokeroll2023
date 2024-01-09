@@ -1,4 +1,6 @@
-export const SLITHER_WING = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SLITHER_WING: PokemonProps = {
         id: 'SLITHER_WING',
         number: '988',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png',

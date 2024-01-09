@@ -1,4 +1,6 @@
-export const TANGELA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TANGELA: PokemonProps = {
         id: 'TANGELA',
         number: '114',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png',

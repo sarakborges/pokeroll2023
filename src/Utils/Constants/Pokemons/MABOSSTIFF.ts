@@ -1,4 +1,6 @@
-export const MABOSSTIFF = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MABOSSTIFF: PokemonProps = {
         id: 'MABOSSTIFF',
         number: '943',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png',

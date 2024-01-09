@@ -1,4 +1,6 @@
-export const BASCULIN_BLUE_STRIPED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BASCULIN_BLUE_STRIPED: PokemonProps = {
         id: 'BASCULIN_BLUE_STRIPED',
         number: '10016',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png',

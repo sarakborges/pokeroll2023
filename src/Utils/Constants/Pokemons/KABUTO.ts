@@ -1,4 +1,6 @@
-export const KABUTO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KABUTO: PokemonProps = {
         id: 'KABUTO',
         number: '140',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png',

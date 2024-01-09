@@ -1,4 +1,6 @@
-export const GLAMEOW = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GLAMEOW: PokemonProps = {
         id: 'GLAMEOW',
         number: '431',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png',

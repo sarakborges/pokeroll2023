@@ -1,4 +1,6 @@
-export const TOGETIC = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TOGETIC: PokemonProps = {
         id: 'TOGETIC',
         number: '176',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png',

@@ -1,4 +1,6 @@
-export const OGERPON_HEARTHFLAME_MASK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const OGERPON_HEARTHFLAME_MASK: PokemonProps = {
         id: 'OGERPON_HEARTHFLAME_MASK',
         number: '10274',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10274.png',

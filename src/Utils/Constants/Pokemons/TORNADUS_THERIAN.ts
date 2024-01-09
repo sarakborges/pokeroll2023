@@ -1,4 +1,6 @@
-export const TORNADUS_THERIAN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TORNADUS_THERIAN: PokemonProps = {
         id: 'TORNADUS_THERIAN',
         number: '10019',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png',

@@ -1,4 +1,6 @@
-export const HUNTAIL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HUNTAIL: PokemonProps = {
         id: 'HUNTAIL',
         number: '367',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png',

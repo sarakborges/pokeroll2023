@@ -1,4 +1,6 @@
-export const TYMPOLE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYMPOLE: PokemonProps = {
         id: 'TYMPOLE',
         number: '535',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png',

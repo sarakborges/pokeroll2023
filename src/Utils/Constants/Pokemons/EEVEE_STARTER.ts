@@ -1,4 +1,6 @@
-export const EEVEE_STARTER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const EEVEE_STARTER: PokemonProps = {
         id: 'EEVEE_STARTER',
         number: '10159',
         sprite: 'null',

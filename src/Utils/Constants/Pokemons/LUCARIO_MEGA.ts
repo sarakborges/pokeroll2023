@@ -1,4 +1,6 @@
-export const LUCARIO_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LUCARIO_MEGA: PokemonProps = {
         id: 'LUCARIO_MEGA',
         number: '10059',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png',

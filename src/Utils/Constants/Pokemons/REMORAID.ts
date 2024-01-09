@@ -1,4 +1,6 @@
-export const REMORAID = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const REMORAID: PokemonProps = {
         id: 'REMORAID',
         number: '223',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png',

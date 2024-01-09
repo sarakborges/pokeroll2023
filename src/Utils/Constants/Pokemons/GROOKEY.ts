@@ -1,4 +1,6 @@
-export const GROOKEY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GROOKEY: PokemonProps = {
         id: 'GROOKEY',
         number: '810',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png',

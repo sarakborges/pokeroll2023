@@ -1,4 +1,6 @@
-export const LOKIX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LOKIX: PokemonProps = {
         id: 'LOKIX',
         number: '920',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png',

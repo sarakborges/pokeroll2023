@@ -1,4 +1,6 @@
-export const BANETTE_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BANETTE_MEGA: PokemonProps = {
         id: 'BANETTE_MEGA',
         number: '10056',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png',

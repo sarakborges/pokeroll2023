@@ -1,4 +1,6 @@
-export const KOMALA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KOMALA: PokemonProps = {
         id: 'KOMALA',
         number: '775',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png',

@@ -1,4 +1,6 @@
-export const MIRAIDON_GLIDE_MODE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIRAIDON_GLIDE_MODE: PokemonProps = {
         id: 'MIRAIDON_GLIDE_MODE',
         number: '10271',
         sprite: 'null',

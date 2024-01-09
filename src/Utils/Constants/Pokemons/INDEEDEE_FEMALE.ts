@@ -1,4 +1,6 @@
-export const INDEEDEE_FEMALE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const INDEEDEE_FEMALE: PokemonProps = {
         id: 'INDEEDEE_FEMALE',
         number: '10186',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10186.png',

@@ -1,4 +1,6 @@
-export const SIMISEAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SIMISEAR: PokemonProps = {
         id: 'SIMISEAR',
         number: '514',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png',

@@ -1,4 +1,6 @@
-export const MAMOSWINE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAMOSWINE: PokemonProps = {
         id: 'MAMOSWINE',
         number: '473',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png',

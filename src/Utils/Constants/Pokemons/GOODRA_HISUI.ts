@@ -1,4 +1,6 @@
-export const GOODRA_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GOODRA_HISUI: PokemonProps = {
         id: 'GOODRA_HISUI',
         number: '10242',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png',

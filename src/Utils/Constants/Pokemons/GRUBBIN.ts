@@ -1,4 +1,6 @@
-export const GRUBBIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GRUBBIN: PokemonProps = {
         id: 'GRUBBIN',
         number: '736',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png',

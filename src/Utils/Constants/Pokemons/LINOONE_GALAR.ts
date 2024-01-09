@@ -1,4 +1,6 @@
-export const LINOONE_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LINOONE_GALAR: PokemonProps = {
         id: 'LINOONE_GALAR',
         number: '10175',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png',

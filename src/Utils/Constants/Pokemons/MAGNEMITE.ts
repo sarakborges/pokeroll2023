@@ -1,4 +1,6 @@
-export const MAGNEMITE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAGNEMITE: PokemonProps = {
         id: 'MAGNEMITE',
         number: '81',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png',

@@ -1,4 +1,6 @@
-export const MUNCHLAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MUNCHLAX: PokemonProps = {
         id: 'MUNCHLAX',
         number: '446',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png',

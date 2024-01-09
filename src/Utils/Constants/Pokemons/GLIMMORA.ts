@@ -1,4 +1,6 @@
-export const GLIMMORA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GLIMMORA: PokemonProps = {
         id: 'GLIMMORA',
         number: '970',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png',

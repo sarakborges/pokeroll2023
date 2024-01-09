@@ -1,4 +1,6 @@
-export const URSALUNA_BLOODMOON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const URSALUNA_BLOODMOON: PokemonProps = {
         id: 'URSALUNA_BLOODMOON',
         number: '10272',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10272.png',

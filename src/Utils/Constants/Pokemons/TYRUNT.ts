@@ -1,4 +1,6 @@
-export const TYRUNT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYRUNT: PokemonProps = {
         id: 'TYRUNT',
         number: '696',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png',

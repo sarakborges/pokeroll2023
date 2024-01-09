@@ -1,4 +1,6 @@
-export const TADBULB = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TADBULB: PokemonProps = {
         id: 'TADBULB',
         number: '938',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png',

@@ -1,4 +1,6 @@
-export const MIRAIDON_DRIVE_MODE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIRAIDON_DRIVE_MODE: PokemonProps = {
         id: 'MIRAIDON_DRIVE_MODE',
         number: '10269',
         sprite: 'null',

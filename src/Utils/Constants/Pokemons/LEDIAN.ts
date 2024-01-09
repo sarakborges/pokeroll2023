@@ -1,4 +1,6 @@
-export const LEDIAN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LEDIAN: PokemonProps = {
         id: 'LEDIAN',
         number: '166',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png',

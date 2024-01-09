@@ -1,4 +1,6 @@
-export const AVALUGG_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AVALUGG_HISUI: PokemonProps = {
         id: 'AVALUGG_HISUI',
         number: '10243',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png',

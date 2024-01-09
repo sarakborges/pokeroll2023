@@ -1,4 +1,6 @@
-export const WOOPER_PALDEA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WOOPER_PALDEA: PokemonProps = {
         id: 'WOOPER_PALDEA',
         number: '10253',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png',

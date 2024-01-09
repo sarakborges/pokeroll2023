@@ -1,4 +1,6 @@
-export const GIGALITH = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GIGALITH: PokemonProps = {
         id: 'GIGALITH',
         number: '526',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png',

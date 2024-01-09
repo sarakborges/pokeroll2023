@@ -1,4 +1,6 @@
-export const URSHIFU_SINGLE_STRIKE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const URSHIFU_SINGLE_STRIKE: PokemonProps = {
         id: 'URSHIFU_SINGLE_STRIKE',
         number: '892',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png',

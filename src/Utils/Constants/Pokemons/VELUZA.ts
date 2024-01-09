@@ -1,4 +1,6 @@
-export const VELUZA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VELUZA: PokemonProps = {
         id: 'VELUZA',
         number: '976',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png',

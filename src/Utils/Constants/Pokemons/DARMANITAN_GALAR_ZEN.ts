@@ -1,4 +1,6 @@
-export const DARMANITAN_GALAR_ZEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DARMANITAN_GALAR_ZEN: PokemonProps = {
         id: 'DARMANITAN_GALAR_ZEN',
         number: '10178',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10178.png',

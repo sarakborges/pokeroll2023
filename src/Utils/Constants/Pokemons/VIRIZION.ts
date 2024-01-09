@@ -1,4 +1,6 @@
-export const VIRIZION = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VIRIZION: PokemonProps = {
         id: 'VIRIZION',
         number: '640',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png',

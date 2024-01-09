@@ -1,4 +1,6 @@
-export const TATSUGIRI_STRETCHY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TATSUGIRI_STRETCHY: PokemonProps = {
         id: 'TATSUGIRI_STRETCHY',
         number: '10259',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10259.png',

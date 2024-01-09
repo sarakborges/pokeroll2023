@@ -1,4 +1,6 @@
-export const PHANTUMP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PHANTUMP: PokemonProps = {
         id: 'PHANTUMP',
         number: '708',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png',

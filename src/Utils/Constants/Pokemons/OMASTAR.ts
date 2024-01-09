@@ -1,4 +1,6 @@
-export const OMASTAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const OMASTAR: PokemonProps = {
         id: 'OMASTAR',
         number: '139',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png',

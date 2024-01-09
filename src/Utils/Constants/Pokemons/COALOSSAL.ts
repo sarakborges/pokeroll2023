@@ -1,4 +1,6 @@
-export const COALOSSAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const COALOSSAL: PokemonProps = {
         id: 'COALOSSAL',
         number: '839',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png',

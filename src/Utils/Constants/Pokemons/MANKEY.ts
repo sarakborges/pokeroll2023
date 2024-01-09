@@ -1,4 +1,6 @@
-export const MANKEY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MANKEY: PokemonProps = {
         id: 'MANKEY',
         number: '56',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png',

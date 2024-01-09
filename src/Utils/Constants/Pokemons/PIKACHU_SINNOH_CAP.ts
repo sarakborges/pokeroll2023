@@ -1,4 +1,6 @@
-export const PIKACHU_SINNOH_CAP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PIKACHU_SINNOH_CAP: PokemonProps = {
         id: 'PIKACHU_SINNOH_CAP',
         number: '10096',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10096.png',

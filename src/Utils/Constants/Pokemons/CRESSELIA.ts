@@ -1,4 +1,6 @@
-export const CRESSELIA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CRESSELIA: PokemonProps = {
         id: 'CRESSELIA',
         number: '488',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png',

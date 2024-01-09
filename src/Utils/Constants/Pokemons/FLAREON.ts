@@ -1,4 +1,6 @@
-export const FLAREON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FLAREON: PokemonProps = {
         id: 'FLAREON',
         number: '136',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png',

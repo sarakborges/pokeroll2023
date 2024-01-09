@@ -1,4 +1,6 @@
-export const MORPEKO_FULL_BELLY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MORPEKO_FULL_BELLY: PokemonProps = {
         id: 'MORPEKO_FULL_BELLY',
         number: '877',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png',

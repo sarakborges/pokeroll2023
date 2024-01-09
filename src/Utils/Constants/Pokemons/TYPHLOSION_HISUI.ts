@@ -1,4 +1,6 @@
-export const TYPHLOSION_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYPHLOSION_HISUI: PokemonProps = {
         id: 'TYPHLOSION_HISUI',
         number: '10233',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png',

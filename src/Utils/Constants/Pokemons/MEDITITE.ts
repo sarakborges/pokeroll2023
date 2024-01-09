@@ -1,4 +1,6 @@
-export const MEDITITE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MEDITITE: PokemonProps = {
         id: 'MEDITITE',
         number: '307',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png',

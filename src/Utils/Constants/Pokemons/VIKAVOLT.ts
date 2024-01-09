@@ -1,4 +1,6 @@
-export const VIKAVOLT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VIKAVOLT: PokemonProps = {
         id: 'VIKAVOLT',
         number: '738',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png',

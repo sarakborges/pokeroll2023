@@ -1,4 +1,6 @@
-export const TING_LU = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TING_LU: PokemonProps = {
         id: 'TING_LU',
         number: '1003',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png',

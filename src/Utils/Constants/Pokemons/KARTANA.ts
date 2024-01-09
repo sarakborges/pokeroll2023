@@ -1,4 +1,6 @@
-export const KARTANA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KARTANA: PokemonProps = {
         id: 'KARTANA',
         number: '798',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png',

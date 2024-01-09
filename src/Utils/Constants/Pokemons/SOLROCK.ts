@@ -1,4 +1,6 @@
-export const SOLROCK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SOLROCK: PokemonProps = {
         id: 'SOLROCK',
         number: '338',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png',

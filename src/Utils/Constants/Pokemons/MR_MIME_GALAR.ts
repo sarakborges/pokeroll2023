@@ -1,4 +1,6 @@
-export const MR_MIME_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MR_MIME_GALAR: PokemonProps = {
         id: 'MR_MIME_GALAR',
         number: '10168',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10168.png',

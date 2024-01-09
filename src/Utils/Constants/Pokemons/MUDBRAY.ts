@@ -1,4 +1,6 @@
-export const MUDBRAY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MUDBRAY: PokemonProps = {
         id: 'MUDBRAY',
         number: '749',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png',

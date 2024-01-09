@@ -1,4 +1,6 @@
-export const LITTEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LITTEN: PokemonProps = {
         id: 'LITTEN',
         number: '725',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png',

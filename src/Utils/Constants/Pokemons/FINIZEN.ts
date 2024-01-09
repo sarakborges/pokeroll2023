@@ -1,4 +1,6 @@
-export const FINIZEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FINIZEN: PokemonProps = {
         id: 'FINIZEN',
         number: '963',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png',

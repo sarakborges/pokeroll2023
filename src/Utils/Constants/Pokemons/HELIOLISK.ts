@@ -1,4 +1,6 @@
-export const HELIOLISK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HELIOLISK: PokemonProps = {
         id: 'HELIOLISK',
         number: '695',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png',

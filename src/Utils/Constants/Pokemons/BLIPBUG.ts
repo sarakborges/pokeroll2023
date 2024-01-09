@@ -1,4 +1,6 @@
-export const BLIPBUG = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BLIPBUG: PokemonProps = {
         id: 'BLIPBUG',
         number: '824',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png',

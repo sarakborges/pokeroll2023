@@ -1,4 +1,6 @@
-export const MAUSHOLD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAUSHOLD: PokemonProps = {
         id: 'MAUSHOLD',
         number: '925',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png',

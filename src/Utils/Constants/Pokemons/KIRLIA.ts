@@ -1,4 +1,6 @@
-export const KIRLIA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KIRLIA: PokemonProps = {
         id: 'KIRLIA',
         number: '281',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png',

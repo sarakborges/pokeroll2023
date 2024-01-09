@@ -1,4 +1,6 @@
-export const MELOETTA_PIROUETTE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MELOETTA_PIROUETTE: PokemonProps = {
         id: 'MELOETTA_PIROUETTE',
         number: '10018',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png',

@@ -1,4 +1,6 @@
-export const KELDEO_ORDINARY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KELDEO_ORDINARY: PokemonProps = {
         id: 'KELDEO_ORDINARY',
         number: '647',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png',

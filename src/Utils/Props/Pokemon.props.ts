@@ -20,12 +20,13 @@ export type Types =
   | 'unknown'
 
 type MoveProps = {
-  level: number
+  level: string
   name: string
 }
 
 export type PokemonProps = {
   id: string
+  number: string
   sprite: string
   name: string
   types: Types[]

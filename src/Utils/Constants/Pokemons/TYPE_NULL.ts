@@ -1,4 +1,6 @@
-export const TYPE_NULL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYPE_NULL: PokemonProps = {
         id: 'TYPE_NULL',
         number: '772',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png',

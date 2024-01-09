@@ -1,4 +1,6 @@
-export const XATU = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const XATU: PokemonProps = {
         id: 'XATU',
         number: '178',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png',

@@ -1,4 +1,6 @@
-export const BASCULEGION_FEMALE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BASCULEGION_FEMALE: PokemonProps = {
         id: 'BASCULEGION_FEMALE',
         number: '10248',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png',

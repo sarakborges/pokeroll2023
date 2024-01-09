@@ -1,4 +1,6 @@
-export const JELLICENT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const JELLICENT: PokemonProps = {
         id: 'JELLICENT',
         number: '593',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png',

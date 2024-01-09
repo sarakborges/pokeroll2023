@@ -1,4 +1,6 @@
-export const CAMERUPT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CAMERUPT: PokemonProps = {
         id: 'CAMERUPT',
         number: '323',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png',

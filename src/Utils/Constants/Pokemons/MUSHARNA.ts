@@ -1,4 +1,6 @@
-export const MUSHARNA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MUSHARNA: PokemonProps = {
         id: 'MUSHARNA',
         number: '518',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png',

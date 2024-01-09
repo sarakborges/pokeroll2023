@@ -1,4 +1,6 @@
-export const DUSTOX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DUSTOX: PokemonProps = {
         id: 'DUSTOX',
         number: '269',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png',

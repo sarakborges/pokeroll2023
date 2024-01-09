@@ -1,4 +1,6 @@
-export const HERDIER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HERDIER: PokemonProps = {
         id: 'HERDIER',
         number: '507',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png',

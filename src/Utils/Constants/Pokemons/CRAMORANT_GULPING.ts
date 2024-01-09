@@ -1,4 +1,6 @@
-export const CRAMORANT_GULPING = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CRAMORANT_GULPING: PokemonProps = {
         id: 'CRAMORANT_GULPING',
         number: '10182',
         sprite: 'null',

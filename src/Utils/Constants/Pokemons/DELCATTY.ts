@@ -1,4 +1,6 @@
-export const DELCATTY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DELCATTY: PokemonProps = {
         id: 'DELCATTY',
         number: '301',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png',

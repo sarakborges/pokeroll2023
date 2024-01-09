@@ -1,4 +1,6 @@
-export const GARCHOMP_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GARCHOMP_MEGA: PokemonProps = {
         id: 'GARCHOMP_MEGA',
         number: '10058',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png',

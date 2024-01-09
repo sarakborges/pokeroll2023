@@ -1,4 +1,6 @@
-export const LOPUNNY_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LOPUNNY_MEGA: PokemonProps = {
         id: 'LOPUNNY_MEGA',
         number: '10088',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png',

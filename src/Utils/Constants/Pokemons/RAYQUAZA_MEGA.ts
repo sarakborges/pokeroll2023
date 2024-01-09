@@ -1,4 +1,6 @@
-export const RAYQUAZA_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RAYQUAZA_MEGA: PokemonProps = {
         id: 'RAYQUAZA_MEGA',
         number: '10079',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png',

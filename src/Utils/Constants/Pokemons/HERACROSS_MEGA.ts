@@ -1,4 +1,6 @@
-export const HERACROSS_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HERACROSS_MEGA: PokemonProps = {
         id: 'HERACROSS_MEGA',
         number: '10047',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png',

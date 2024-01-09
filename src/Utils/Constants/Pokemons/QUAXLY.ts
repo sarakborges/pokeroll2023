@@ -1,4 +1,6 @@
-export const QUAXLY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const QUAXLY: PokemonProps = {
         id: 'QUAXLY',
         number: '912',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png',

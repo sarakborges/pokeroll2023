@@ -1,4 +1,6 @@
-export const MIRAIDON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIRAIDON: PokemonProps = {
         id: 'MIRAIDON',
         number: '1008',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png',

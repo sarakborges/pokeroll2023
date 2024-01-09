@@ -1,4 +1,6 @@
-export const QUILAVA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const QUILAVA: PokemonProps = {
         id: 'QUILAVA',
         number: '156',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png',

@@ -1,4 +1,6 @@
-export const POLIWAG = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const POLIWAG: PokemonProps = {
         id: 'POLIWAG',
         number: '60',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png',

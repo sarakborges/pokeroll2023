@@ -1,4 +1,6 @@
-export const BINACLE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BINACLE: PokemonProps = {
         id: 'BINACLE',
         number: '688',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png',

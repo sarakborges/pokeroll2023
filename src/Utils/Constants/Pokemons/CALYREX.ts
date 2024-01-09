@@ -1,4 +1,6 @@
-export const CALYREX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CALYREX: PokemonProps = {
         id: 'CALYREX',
         number: '898',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png',

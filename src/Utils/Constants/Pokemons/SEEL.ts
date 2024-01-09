@@ -1,4 +1,6 @@
-export const SEEL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SEEL: PokemonProps = {
         id: 'SEEL',
         number: '86',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png',

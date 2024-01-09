@@ -1,4 +1,6 @@
-export const WATCHOG = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WATCHOG: PokemonProps = {
         id: 'WATCHOG',
         number: '505',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png',

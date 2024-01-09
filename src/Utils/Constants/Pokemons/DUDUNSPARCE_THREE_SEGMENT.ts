@@ -1,4 +1,6 @@
-export const DUDUNSPARCE_THREE_SEGMENT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DUDUNSPARCE_THREE_SEGMENT: PokemonProps = {
         id: 'DUDUNSPARCE_THREE_SEGMENT',
         number: '10255',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10255.png',

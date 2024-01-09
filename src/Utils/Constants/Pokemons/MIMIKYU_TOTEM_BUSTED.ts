@@ -1,4 +1,6 @@
-export const MIMIKYU_TOTEM_BUSTED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIMIKYU_TOTEM_BUSTED: PokemonProps = {
         id: 'MIMIKYU_TOTEM_BUSTED',
         number: '10145',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png',

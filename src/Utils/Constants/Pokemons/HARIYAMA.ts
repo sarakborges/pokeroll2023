@@ -1,4 +1,6 @@
-export const HARIYAMA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HARIYAMA: PokemonProps = {
         id: 'HARIYAMA',
         number: '297',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png',

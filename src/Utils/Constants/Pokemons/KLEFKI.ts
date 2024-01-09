@@ -1,4 +1,6 @@
-export const KLEFKI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KLEFKI: PokemonProps = {
         id: 'KLEFKI',
         number: '707',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png',

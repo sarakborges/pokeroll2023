@@ -1,4 +1,6 @@
-export const REGISTEEL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const REGISTEEL: PokemonProps = {
         id: 'REGISTEEL',
         number: '379',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png',

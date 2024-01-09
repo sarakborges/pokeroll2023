@@ -1,4 +1,6 @@
-export const COMBUSKEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const COMBUSKEN: PokemonProps = {
         id: 'COMBUSKEN',
         number: '256',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png',

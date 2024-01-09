@@ -1,4 +1,6 @@
-export const SHINX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SHINX: PokemonProps = {
         id: 'SHINX',
         number: '403',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png',

@@ -1,4 +1,6 @@
-export const HEATRAN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HEATRAN: PokemonProps = {
         id: 'HEATRAN',
         number: '485',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png',

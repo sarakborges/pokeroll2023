@@ -1,4 +1,6 @@
-export const METAGROSS = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const METAGROSS: PokemonProps = {
         id: 'METAGROSS',
         number: '376',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png',

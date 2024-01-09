@@ -1,4 +1,6 @@
-export const HOUNDOOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HOUNDOOM: PokemonProps = {
         id: 'HOUNDOOM',
         number: '229',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png',

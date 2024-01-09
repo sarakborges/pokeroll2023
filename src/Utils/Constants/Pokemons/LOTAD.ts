@@ -1,4 +1,6 @@
-export const LOTAD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LOTAD: PokemonProps = {
         id: 'LOTAD',
         number: '270',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png',

@@ -1,4 +1,6 @@
-export const CLAUNCHER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CLAUNCHER: PokemonProps = {
         id: 'CLAUNCHER',
         number: '692',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png',

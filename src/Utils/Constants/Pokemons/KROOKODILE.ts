@@ -1,4 +1,6 @@
-export const KROOKODILE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KROOKODILE: PokemonProps = {
         id: 'KROOKODILE',
         number: '553',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png',

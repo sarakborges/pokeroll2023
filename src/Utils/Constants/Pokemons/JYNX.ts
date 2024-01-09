@@ -1,4 +1,6 @@
-export const JYNX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const JYNX: PokemonProps = {
         id: 'JYNX',
         number: '124',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png',

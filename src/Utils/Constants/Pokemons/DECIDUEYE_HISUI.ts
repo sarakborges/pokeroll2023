@@ -1,4 +1,6 @@
-export const DECIDUEYE_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DECIDUEYE_HISUI: PokemonProps = {
         id: 'DECIDUEYE_HISUI',
         number: '10244',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png',

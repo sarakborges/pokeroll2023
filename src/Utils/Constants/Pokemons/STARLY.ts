@@ -1,4 +1,6 @@
-export const STARLY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const STARLY: PokemonProps = {
         id: 'STARLY',
         number: '396',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png',

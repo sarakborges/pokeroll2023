@@ -1,4 +1,6 @@
-export const PIKACHU_WORLD_CAP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PIKACHU_WORLD_CAP: PokemonProps = {
         id: 'PIKACHU_WORLD_CAP',
         number: '10160',
         sprite: 'null',

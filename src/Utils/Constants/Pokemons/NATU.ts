@@ -1,4 +1,6 @@
-export const NATU = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NATU: PokemonProps = {
         id: 'NATU',
         number: '177',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png',

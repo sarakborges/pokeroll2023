@@ -1,4 +1,6 @@
-export const TOXTRICITY_LOW_KEY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TOXTRICITY_LOW_KEY: PokemonProps = {
         id: 'TOXTRICITY_LOW_KEY',
         number: '10184',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10184.png',

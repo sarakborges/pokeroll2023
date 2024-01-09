@@ -1,4 +1,6 @@
-export const CAMERUPT_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CAMERUPT_MEGA: PokemonProps = {
         id: 'CAMERUPT_MEGA',
         number: '10087',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10087.png',

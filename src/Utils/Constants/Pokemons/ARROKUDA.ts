@@ -1,4 +1,6 @@
-export const ARROKUDA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARROKUDA: PokemonProps = {
         id: 'ARROKUDA',
         number: '846',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png',

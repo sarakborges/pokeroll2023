@@ -1,4 +1,6 @@
-export const HYDRAPPLE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HYDRAPPLE: PokemonProps = {
         id: 'HYDRAPPLE',
         number: '1019',
         sprite: 'null',

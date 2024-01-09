@@ -1,4 +1,6 @@
-export const MANECTRIC_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MANECTRIC_MEGA: PokemonProps = {
         id: 'MANECTRIC_MEGA',
         number: '10055',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png',

@@ -1,4 +1,6 @@
-export const METANG = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const METANG: PokemonProps = {
         id: 'METANG',
         number: '375',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png',

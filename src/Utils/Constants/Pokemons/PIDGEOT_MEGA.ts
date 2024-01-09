@@ -1,4 +1,6 @@
-export const PIDGEOT_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PIDGEOT_MEGA: PokemonProps = {
         id: 'PIDGEOT_MEGA',
         number: '10073',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png',

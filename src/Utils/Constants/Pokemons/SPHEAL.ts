@@ -1,4 +1,6 @@
-export const SPHEAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SPHEAL: PokemonProps = {
         id: 'SPHEAL',
         number: '363',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png',

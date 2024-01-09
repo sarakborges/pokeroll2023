@@ -1,4 +1,6 @@
-export const LATIAS_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LATIAS_MEGA: PokemonProps = {
         id: 'LATIAS_MEGA',
         number: '10062',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10062.png',

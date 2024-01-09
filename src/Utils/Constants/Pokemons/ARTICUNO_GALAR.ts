@@ -1,4 +1,6 @@
-export const ARTICUNO_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARTICUNO_GALAR: PokemonProps = {
         id: 'ARTICUNO_GALAR',
         number: '10169',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10169.png',

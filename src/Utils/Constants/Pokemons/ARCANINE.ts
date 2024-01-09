@@ -1,4 +1,6 @@
-export const ARCANINE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARCANINE: PokemonProps = {
         id: 'ARCANINE',
         number: '59',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png',

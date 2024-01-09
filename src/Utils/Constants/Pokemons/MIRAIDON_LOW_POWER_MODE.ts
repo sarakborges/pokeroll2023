@@ -1,4 +1,6 @@
-export const MIRAIDON_LOW_POWER_MODE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIRAIDON_LOW_POWER_MODE: PokemonProps = {
         id: 'MIRAIDON_LOW_POWER_MODE',
         number: '10268',
         sprite: 'null',

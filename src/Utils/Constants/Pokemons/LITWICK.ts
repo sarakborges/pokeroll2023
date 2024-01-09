@@ -1,4 +1,6 @@
-export const LITWICK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LITWICK: PokemonProps = {
         id: 'LITWICK',
         number: '607',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png',

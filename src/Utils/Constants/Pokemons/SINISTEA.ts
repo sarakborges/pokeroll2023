@@ -1,4 +1,6 @@
-export const SINISTEA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SINISTEA: PokemonProps = {
         id: 'SINISTEA',
         number: '854',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png',

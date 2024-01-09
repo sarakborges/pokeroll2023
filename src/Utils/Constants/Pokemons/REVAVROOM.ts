@@ -1,4 +1,6 @@
-export const REVAVROOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const REVAVROOM: PokemonProps = {
         id: 'REVAVROOM',
         number: '966',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png',

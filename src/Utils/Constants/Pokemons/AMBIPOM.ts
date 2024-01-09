@@ -1,4 +1,6 @@
-export const AMBIPOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AMBIPOM: PokemonProps = {
         id: 'AMBIPOM',
         number: '424',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png',

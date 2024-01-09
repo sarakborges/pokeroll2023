@@ -1,4 +1,6 @@
-export const CERULEDGE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CERULEDGE: PokemonProps = {
         id: 'CERULEDGE',
         number: '937',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png',

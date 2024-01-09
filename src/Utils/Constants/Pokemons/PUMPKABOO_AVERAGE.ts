@@ -1,4 +1,6 @@
-export const PUMPKABOO_AVERAGE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PUMPKABOO_AVERAGE: PokemonProps = {
         id: 'PUMPKABOO_AVERAGE',
         number: '710',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png',

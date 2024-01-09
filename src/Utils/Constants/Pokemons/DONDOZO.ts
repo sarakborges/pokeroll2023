@@ -1,4 +1,6 @@
-export const DONDOZO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DONDOZO: PokemonProps = {
         id: 'DONDOZO',
         number: '977',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png',

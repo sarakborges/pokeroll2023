@@ -1,4 +1,6 @@
-export const YAMPER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const YAMPER: PokemonProps = {
         id: 'YAMPER',
         number: '835',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png',

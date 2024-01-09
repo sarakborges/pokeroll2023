@@ -1,4 +1,6 @@
-export const DARUMAKA_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DARUMAKA_GALAR: PokemonProps = {
         id: 'DARUMAKA_GALAR',
         number: '10176',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png',

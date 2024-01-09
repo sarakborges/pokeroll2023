@@ -1,4 +1,6 @@
-export const DEINO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DEINO: PokemonProps = {
         id: 'DEINO',
         number: '633',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png',

@@ -1,4 +1,6 @@
-export const MELTAN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MELTAN: PokemonProps = {
         id: 'MELTAN',
         number: '808',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png',

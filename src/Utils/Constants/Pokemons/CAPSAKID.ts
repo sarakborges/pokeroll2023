@@ -1,4 +1,6 @@
-export const CAPSAKID = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CAPSAKID: PokemonProps = {
         id: 'CAPSAKID',
         number: '951',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png',

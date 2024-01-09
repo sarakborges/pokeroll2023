@@ -1,4 +1,6 @@
-export const SKELEDIRGE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SKELEDIRGE: PokemonProps = {
         id: 'SKELEDIRGE',
         number: '911',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png',

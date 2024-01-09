@@ -1,4 +1,6 @@
-export const VIKAVOLT_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VIKAVOLT_TOTEM: PokemonProps = {
         id: 'VIKAVOLT_TOTEM',
         number: '10122',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10122.png',

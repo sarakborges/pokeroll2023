@@ -1,4 +1,6 @@
-export const FRAXURE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FRAXURE: PokemonProps = {
         id: 'FRAXURE',
         number: '611',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png',

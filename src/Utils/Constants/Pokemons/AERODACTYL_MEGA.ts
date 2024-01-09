@@ -1,4 +1,6 @@
-export const AERODACTYL_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AERODACTYL_MEGA: PokemonProps = {
         id: 'AERODACTYL_MEGA',
         number: '10042',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png',

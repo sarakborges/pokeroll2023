@@ -1,4 +1,6 @@
-export const ZAMAZENTA_CROWNED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ZAMAZENTA_CROWNED: PokemonProps = {
         id: 'ZAMAZENTA_CROWNED',
         number: '10189',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png',

@@ -1,4 +1,6 @@
-export const PRIMARINA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PRIMARINA: PokemonProps = {
         id: 'PRIMARINA',
         number: '730',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png',

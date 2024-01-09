@@ -1,4 +1,6 @@
-export const CHANDELURE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CHANDELURE: PokemonProps = {
         id: 'CHANDELURE',
         number: '609',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png',

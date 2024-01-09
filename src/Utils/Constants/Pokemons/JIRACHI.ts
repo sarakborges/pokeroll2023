@@ -1,4 +1,6 @@
-export const JIRACHI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const JIRACHI: PokemonProps = {
         id: 'JIRACHI',
         number: '385',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png',

@@ -1,4 +1,6 @@
-export const ZACIAN_CROWNED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ZACIAN_CROWNED: PokemonProps = {
         id: 'ZACIAN_CROWNED',
         number: '10188',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png',

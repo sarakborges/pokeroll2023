@@ -1,4 +1,6 @@
-export const IRON_CROWN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const IRON_CROWN: PokemonProps = {
         id: 'IRON_CROWN',
         number: '1023',
         sprite: 'null',

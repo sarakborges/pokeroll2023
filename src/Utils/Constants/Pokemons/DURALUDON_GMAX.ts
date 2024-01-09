@@ -1,4 +1,6 @@
-export const DURALUDON_GMAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DURALUDON_GMAX: PokemonProps = {
         id: 'DURALUDON_GMAX',
         number: '10225',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png',

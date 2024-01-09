@@ -1,4 +1,6 @@
-export const TOXTRICITY_AMPED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TOXTRICITY_AMPED: PokemonProps = {
         id: 'TOXTRICITY_AMPED',
         number: '849',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png',

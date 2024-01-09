@@ -1,4 +1,6 @@
-export const TAILLOW = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TAILLOW: PokemonProps = {
         id: 'TAILLOW',
         number: '276',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png',

@@ -1,4 +1,6 @@
-export const FRIGIBAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FRIGIBAX: PokemonProps = {
         id: 'FRIGIBAX',
         number: '996',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png',

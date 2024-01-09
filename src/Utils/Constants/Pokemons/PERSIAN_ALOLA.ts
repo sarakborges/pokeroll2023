@@ -1,4 +1,6 @@
-export const PERSIAN_ALOLA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PERSIAN_ALOLA: PokemonProps = {
         id: 'PERSIAN_ALOLA',
         number: '10108',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png',

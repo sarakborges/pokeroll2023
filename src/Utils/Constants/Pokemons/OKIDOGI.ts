@@ -1,4 +1,6 @@
-export const OKIDOGI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const OKIDOGI: PokemonProps = {
         id: 'OKIDOGI',
         number: '1014',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png',

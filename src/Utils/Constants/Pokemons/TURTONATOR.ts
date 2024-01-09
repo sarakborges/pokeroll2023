@@ -1,4 +1,6 @@
-export const TURTONATOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TURTONATOR: PokemonProps = {
         id: 'TURTONATOR',
         number: '776',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png',

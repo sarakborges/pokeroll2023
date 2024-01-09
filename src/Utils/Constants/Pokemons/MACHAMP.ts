@@ -1,4 +1,6 @@
-export const MACHAMP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MACHAMP: PokemonProps = {
         id: 'MACHAMP',
         number: '68',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png',

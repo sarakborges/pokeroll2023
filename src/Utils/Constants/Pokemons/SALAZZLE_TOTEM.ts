@@ -1,4 +1,6 @@
-export const SALAZZLE_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SALAZZLE_TOTEM: PokemonProps = {
         id: 'SALAZZLE_TOTEM',
         number: '10129',
         sprite: 'null',

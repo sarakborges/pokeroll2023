@@ -1,4 +1,6 @@
-export const WHIRLIPEDE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WHIRLIPEDE: PokemonProps = {
         id: 'WHIRLIPEDE',
         number: '544',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png',

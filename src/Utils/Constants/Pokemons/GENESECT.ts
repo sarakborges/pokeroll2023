@@ -1,4 +1,6 @@
-export const GENESECT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GENESECT: PokemonProps = {
         id: 'GENESECT',
         number: '649',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png',

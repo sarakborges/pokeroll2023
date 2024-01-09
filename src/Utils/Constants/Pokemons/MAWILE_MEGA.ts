@@ -1,4 +1,6 @@
-export const MAWILE_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAWILE_MEGA: PokemonProps = {
         id: 'MAWILE_MEGA',
         number: '10052',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png',

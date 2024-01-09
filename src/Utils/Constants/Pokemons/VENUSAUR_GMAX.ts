@@ -1,4 +1,6 @@
-export const VENUSAUR_GMAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VENUSAUR_GMAX: PokemonProps = {
         id: 'VENUSAUR_GMAX',
         number: '10195',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10195.png',

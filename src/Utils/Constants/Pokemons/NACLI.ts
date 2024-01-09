@@ -1,4 +1,6 @@
-export const NACLI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NACLI: PokemonProps = {
         id: 'NACLI',
         number: '932',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png',

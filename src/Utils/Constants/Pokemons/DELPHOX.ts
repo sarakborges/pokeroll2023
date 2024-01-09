@@ -1,4 +1,6 @@
-export const DELPHOX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DELPHOX: PokemonProps = {
         id: 'DELPHOX',
         number: '655',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png',

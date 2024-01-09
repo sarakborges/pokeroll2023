@@ -1,4 +1,6 @@
-export const PONYTA_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PONYTA_GALAR: PokemonProps = {
         id: 'PONYTA_GALAR',
         number: '10162',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png',

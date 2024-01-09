@@ -1,4 +1,6 @@
-export const LURANTIS_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LURANTIS_TOTEM: PokemonProps = {
         id: 'LURANTIS_TOTEM',
         number: '10128',
         sprite: 'null',

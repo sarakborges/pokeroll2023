@@ -1,4 +1,6 @@
-export const LUXRAY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LUXRAY: PokemonProps = {
         id: 'LUXRAY',
         number: '405',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png',

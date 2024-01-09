@@ -1,4 +1,6 @@
-export const POLIWHIRL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const POLIWHIRL: PokemonProps = {
         id: 'POLIWHIRL',
         number: '61',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png',

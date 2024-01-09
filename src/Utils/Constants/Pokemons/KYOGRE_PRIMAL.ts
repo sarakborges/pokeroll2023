@@ -1,4 +1,6 @@
-export const KYOGRE_PRIMAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KYOGRE_PRIMAL: PokemonProps = {
         id: 'KYOGRE_PRIMAL',
         number: '10077',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10077.png',

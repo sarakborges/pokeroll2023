@@ -1,4 +1,6 @@
-export const MORPEKO_HANGRY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MORPEKO_HANGRY: PokemonProps = {
         id: 'MORPEKO_HANGRY',
         number: '10187',
         sprite: 'null',

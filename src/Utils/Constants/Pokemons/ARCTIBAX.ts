@@ -1,4 +1,6 @@
-export const ARCTIBAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARCTIBAX: PokemonProps = {
         id: 'ARCTIBAX',
         number: '997',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png',

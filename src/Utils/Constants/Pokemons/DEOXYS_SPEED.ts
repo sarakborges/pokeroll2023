@@ -1,4 +1,6 @@
-export const DEOXYS_SPEED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DEOXYS_SPEED: PokemonProps = {
         id: 'DEOXYS_SPEED',
         number: '10003',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png',

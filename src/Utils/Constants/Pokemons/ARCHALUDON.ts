@@ -1,4 +1,6 @@
-export const ARCHALUDON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARCHALUDON: PokemonProps = {
         id: 'ARCHALUDON',
         number: '1018',
         sprite: 'null',

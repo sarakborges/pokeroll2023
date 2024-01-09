@@ -1,4 +1,6 @@
-export const GIMMIGHOUL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GIMMIGHOUL: PokemonProps = {
         id: 'GIMMIGHOUL',
         number: '999',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png',

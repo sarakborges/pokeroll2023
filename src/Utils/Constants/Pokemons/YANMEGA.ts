@@ -1,4 +1,6 @@
-export const YANMEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const YANMEGA: PokemonProps = {
         id: 'YANMEGA',
         number: '469',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png',

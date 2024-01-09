@@ -1,4 +1,6 @@
-export const ARCHEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARCHEN: PokemonProps = {
         id: 'ARCHEN',
         number: '566',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png',

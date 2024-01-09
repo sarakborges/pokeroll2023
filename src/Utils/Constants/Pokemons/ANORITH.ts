@@ -1,4 +1,6 @@
-export const ANORITH = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ANORITH: PokemonProps = {
         id: 'ANORITH',
         number: '347',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png',

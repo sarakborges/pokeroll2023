@@ -1,4 +1,6 @@
-export const LYCANROC_MIDDAY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LYCANROC_MIDDAY: PokemonProps = {
         id: 'LYCANROC_MIDDAY',
         number: '745',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png',

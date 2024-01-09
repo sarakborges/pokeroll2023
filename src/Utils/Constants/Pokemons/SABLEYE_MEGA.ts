@@ -1,4 +1,6 @@
-export const SABLEYE_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SABLEYE_MEGA: PokemonProps = {
         id: 'SABLEYE_MEGA',
         number: '10066',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png',

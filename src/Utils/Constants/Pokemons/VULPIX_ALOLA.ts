@@ -1,4 +1,6 @@
-export const VULPIX_ALOLA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VULPIX_ALOLA: PokemonProps = {
         id: 'VULPIX_ALOLA',
         number: '10103',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png',

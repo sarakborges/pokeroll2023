@@ -1,4 +1,6 @@
-export const ARAQUANID_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARAQUANID_TOTEM: PokemonProps = {
         id: 'ARAQUANID_TOTEM',
         number: '10153',
         sprite: 'null',

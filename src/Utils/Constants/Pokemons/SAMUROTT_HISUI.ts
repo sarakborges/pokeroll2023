@@ -1,4 +1,6 @@
-export const SAMUROTT_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SAMUROTT_HISUI: PokemonProps = {
         id: 'SAMUROTT_HISUI',
         number: '10236',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png',

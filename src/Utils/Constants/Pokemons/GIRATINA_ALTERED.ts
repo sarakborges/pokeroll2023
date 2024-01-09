@@ -1,4 +1,6 @@
-export const GIRATINA_ALTERED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GIRATINA_ALTERED: PokemonProps = {
         id: 'GIRATINA_ALTERED',
         number: '487',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png',

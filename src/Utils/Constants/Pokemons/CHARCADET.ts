@@ -1,4 +1,6 @@
-export const CHARCADET = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CHARCADET: PokemonProps = {
         id: 'CHARCADET',
         number: '935',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png',

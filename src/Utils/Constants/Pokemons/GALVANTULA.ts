@@ -1,4 +1,6 @@
-export const GALVANTULA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GALVANTULA: PokemonProps = {
         id: 'GALVANTULA',
         number: '596',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png',

@@ -1,4 +1,6 @@
-export const FARFETCHD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FARFETCHD: PokemonProps = {
         id: 'FARFETCHD',
         number: '83',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png',

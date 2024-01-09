@@ -1,4 +1,6 @@
-export const ROARING_MOON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ROARING_MOON: PokemonProps = {
         id: 'ROARING_MOON',
         number: '1005',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png',

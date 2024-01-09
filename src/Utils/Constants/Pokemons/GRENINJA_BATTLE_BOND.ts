@@ -1,4 +1,6 @@
-export const GRENINJA_BATTLE_BOND = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GRENINJA_BATTLE_BOND: PokemonProps = {
         id: 'GRENINJA_BATTLE_BOND',
         number: '10116',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10116.png',

@@ -1,4 +1,6 @@
-export const NOCTOWL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NOCTOWL: PokemonProps = {
         id: 'NOCTOWL',
         number: '164',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png',

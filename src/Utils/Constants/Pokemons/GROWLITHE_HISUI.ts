@@ -1,4 +1,6 @@
-export const GROWLITHE_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GROWLITHE_HISUI: PokemonProps = {
         id: 'GROWLITHE_HISUI',
         number: '10229',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png',

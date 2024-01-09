@@ -1,4 +1,6 @@
-export const EISCUE_NOICE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const EISCUE_NOICE: PokemonProps = {
         id: 'EISCUE_NOICE',
         number: '10185',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10185.png',

@@ -1,4 +1,6 @@
-export const RELICANTH = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RELICANTH: PokemonProps = {
         id: 'RELICANTH',
         number: '369',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png',

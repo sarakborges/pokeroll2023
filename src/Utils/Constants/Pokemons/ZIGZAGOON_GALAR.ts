@@ -1,4 +1,6 @@
-export const ZIGZAGOON_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ZIGZAGOON_GALAR: PokemonProps = {
         id: 'ZIGZAGOON_GALAR',
         number: '10174',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png',

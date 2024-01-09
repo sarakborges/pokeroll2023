@@ -1,4 +1,6 @@
-export const EXEGGCUTE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const EXEGGCUTE: PokemonProps = {
         id: 'EXEGGCUTE',
         number: '102',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png',

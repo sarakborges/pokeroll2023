@@ -1,4 +1,6 @@
-export const RILLABOOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RILLABOOM: PokemonProps = {
         id: 'RILLABOOM',
         number: '812',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png',

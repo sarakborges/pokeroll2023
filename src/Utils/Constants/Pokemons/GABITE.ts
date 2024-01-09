@@ -1,4 +1,6 @@
-export const GABITE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GABITE: PokemonProps = {
         id: 'GABITE',
         number: '444',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png',

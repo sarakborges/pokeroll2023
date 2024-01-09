@@ -1,4 +1,6 @@
-export const CROBAT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CROBAT: PokemonProps = {
         id: 'CROBAT',
         number: '169',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png',

@@ -1,4 +1,6 @@
-export const OGERPON_CORNERSTONE_MASK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const OGERPON_CORNERSTONE_MASK: PokemonProps = {
         id: 'OGERPON_CORNERSTONE_MASK',
         number: '10275',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10275.png',

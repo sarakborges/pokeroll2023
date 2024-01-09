@@ -1,4 +1,6 @@
-export const MAUSHOLD_FAMILY_OF_THREE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAUSHOLD_FAMILY_OF_THREE: PokemonProps = {
         id: 'MAUSHOLD_FAMILY_OF_THREE',
         number: '10257',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png',

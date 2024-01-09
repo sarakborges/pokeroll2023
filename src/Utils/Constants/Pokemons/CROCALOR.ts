@@ -1,4 +1,6 @@
-export const CROCALOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CROCALOR: PokemonProps = {
         id: 'CROCALOR',
         number: '910',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png',

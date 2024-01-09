@@ -1,4 +1,6 @@
-export const BRAMBLIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BRAMBLIN: PokemonProps = {
         id: 'BRAMBLIN',
         number: '946',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png',

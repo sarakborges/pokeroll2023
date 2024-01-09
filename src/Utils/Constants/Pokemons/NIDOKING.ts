@@ -1,4 +1,6 @@
-export const NIDOKING = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NIDOKING: PokemonProps = {
         id: 'NIDOKING',
         number: '34',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png',

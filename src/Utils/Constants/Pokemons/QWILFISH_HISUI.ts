@@ -1,4 +1,6 @@
-export const QWILFISH_HISUI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const QWILFISH_HISUI: PokemonProps = {
         id: 'QWILFISH_HISUI',
         number: '10234',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png',

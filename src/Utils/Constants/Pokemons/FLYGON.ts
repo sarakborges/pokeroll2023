@@ -1,4 +1,6 @@
-export const FLYGON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FLYGON: PokemonProps = {
         id: 'FLYGON',
         number: '330',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png',

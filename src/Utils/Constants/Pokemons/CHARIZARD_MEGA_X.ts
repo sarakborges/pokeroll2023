@@ -1,4 +1,6 @@
-export const CHARIZARD_MEGA_X = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CHARIZARD_MEGA_X: PokemonProps = {
         id: 'CHARIZARD_MEGA_X',
         number: '10034',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png',

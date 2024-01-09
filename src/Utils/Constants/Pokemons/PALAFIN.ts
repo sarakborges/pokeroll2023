@@ -1,4 +1,6 @@
-export const PALAFIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PALAFIN: PokemonProps = {
         id: 'PALAFIN',
         number: '964',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png',

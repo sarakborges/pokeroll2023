@@ -1,4 +1,6 @@
-export const COBALION = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const COBALION: PokemonProps = {
         id: 'COBALION',
         number: '638',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png',

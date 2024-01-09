@@ -1,4 +1,6 @@
-export const INTELEON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const INTELEON: PokemonProps = {
         id: 'INTELEON',
         number: '818',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png',

@@ -1,4 +1,6 @@
-export const METAPOD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const METAPOD: PokemonProps = {
         id: 'METAPOD',
         number: '11',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png',

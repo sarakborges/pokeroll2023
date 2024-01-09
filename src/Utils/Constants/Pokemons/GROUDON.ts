@@ -1,4 +1,6 @@
-export const GROUDON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GROUDON: PokemonProps = {
         id: 'GROUDON',
         number: '383',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png',

@@ -1,4 +1,6 @@
-export const GRAVELER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GRAVELER: PokemonProps = {
         id: 'GRAVELER',
         number: '75',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png',

@@ -1,4 +1,6 @@
-export const TAUROS_PALDEA_AQUA_BREED = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TAUROS_PALDEA_AQUA_BREED: PokemonProps = {
         id: 'TAUROS_PALDEA_AQUA_BREED',
         number: '10252',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10252.png',

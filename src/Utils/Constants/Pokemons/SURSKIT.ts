@@ -1,4 +1,6 @@
-export const SURSKIT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SURSKIT: PokemonProps = {
         id: 'SURSKIT',
         number: '283',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png',

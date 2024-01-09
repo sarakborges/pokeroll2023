@@ -1,4 +1,6 @@
-export const LANDORUS_INCARNATE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LANDORUS_INCARNATE: PokemonProps = {
         id: 'LANDORUS_INCARNATE',
         number: '645',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png',

@@ -1,4 +1,6 @@
-export const ZOROARK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ZOROARK: PokemonProps = {
         id: 'ZOROARK',
         number: '571',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png',

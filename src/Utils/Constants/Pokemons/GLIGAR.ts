@@ -1,4 +1,6 @@
-export const GLIGAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GLIGAR: PokemonProps = {
         id: 'GLIGAR',
         number: '207',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png',

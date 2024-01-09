@@ -1,4 +1,6 @@
-export const WYNAUT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WYNAUT: PokemonProps = {
         id: 'WYNAUT',
         number: '360',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png',

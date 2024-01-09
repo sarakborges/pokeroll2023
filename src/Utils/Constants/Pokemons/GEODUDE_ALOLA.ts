@@ -1,4 +1,6 @@
-export const GEODUDE_ALOLA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GEODUDE_ALOLA: PokemonProps = {
         id: 'GEODUDE_ALOLA',
         number: '10109',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png',

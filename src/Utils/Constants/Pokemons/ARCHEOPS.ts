@@ -1,4 +1,6 @@
-export const ARCHEOPS = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARCHEOPS: PokemonProps = {
         id: 'ARCHEOPS',
         number: '567',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png',

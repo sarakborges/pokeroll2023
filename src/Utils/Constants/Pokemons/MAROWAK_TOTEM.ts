@@ -1,4 +1,6 @@
-export const MAROWAK_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAROWAK_TOTEM: PokemonProps = {
         id: 'MAROWAK_TOTEM',
         number: '10149',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10149.png',

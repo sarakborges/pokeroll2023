@@ -1,4 +1,6 @@
-export const SALAMENCE_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SALAMENCE_MEGA: PokemonProps = {
         id: 'SALAMENCE_MEGA',
         number: '10089',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10089.png',

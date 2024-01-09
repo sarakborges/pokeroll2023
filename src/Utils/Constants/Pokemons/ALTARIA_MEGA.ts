@@ -1,4 +1,6 @@
-export const ALTARIA_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ALTARIA_MEGA: PokemonProps = {
         id: 'ALTARIA_MEGA',
         number: '10067',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png',

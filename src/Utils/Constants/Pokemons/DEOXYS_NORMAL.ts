@@ -1,4 +1,6 @@
-export const DEOXYS_NORMAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DEOXYS_NORMAL: PokemonProps = {
         id: 'DEOXYS_NORMAL',
         number: '386',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png',

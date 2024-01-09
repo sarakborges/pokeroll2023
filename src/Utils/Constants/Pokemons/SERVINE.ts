@@ -1,4 +1,6 @@
-export const SERVINE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SERVINE: PokemonProps = {
         id: 'SERVINE',
         number: '496',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png',

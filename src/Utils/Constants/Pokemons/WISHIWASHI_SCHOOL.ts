@@ -1,4 +1,6 @@
-export const WISHIWASHI_SCHOOL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WISHIWASHI_SCHOOL: PokemonProps = {
         id: 'WISHIWASHI_SCHOOL',
         number: '10127',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10127.png',

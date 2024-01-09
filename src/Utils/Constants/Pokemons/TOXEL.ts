@@ -1,4 +1,6 @@
-export const TOXEL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TOXEL: PokemonProps = {
         id: 'TOXEL',
         number: '848',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png',

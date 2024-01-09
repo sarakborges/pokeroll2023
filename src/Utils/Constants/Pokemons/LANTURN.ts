@@ -1,4 +1,6 @@
-export const LANTURN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LANTURN: PokemonProps = {
         id: 'LANTURN',
         number: '171',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png',

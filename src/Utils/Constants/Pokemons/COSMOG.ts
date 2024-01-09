@@ -1,4 +1,6 @@
-export const COSMOG = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const COSMOG: PokemonProps = {
         id: 'COSMOG',
         number: '789',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png',

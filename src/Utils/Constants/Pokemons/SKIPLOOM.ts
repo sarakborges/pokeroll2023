@@ -1,4 +1,6 @@
-export const SKIPLOOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SKIPLOOM: PokemonProps = {
         id: 'SKIPLOOM',
         number: '188',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png',

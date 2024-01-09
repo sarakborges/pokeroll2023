@@ -1,4 +1,6 @@
-export const THROH = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const THROH: PokemonProps = {
         id: 'THROH',
         number: '538',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png',

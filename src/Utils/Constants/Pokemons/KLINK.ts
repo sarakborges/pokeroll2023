@@ -1,4 +1,6 @@
-export const KLINK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KLINK: PokemonProps = {
         id: 'KLINK',
         number: '599',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png',

@@ -1,4 +1,6 @@
-export const ONIX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ONIX: PokemonProps = {
         id: 'ONIX',
         number: '95',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png',

@@ -1,4 +1,6 @@
-export const CRADILY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CRADILY: PokemonProps = {
         id: 'CRADILY',
         number: '346',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png',

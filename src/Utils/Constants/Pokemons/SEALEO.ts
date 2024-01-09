@@ -1,4 +1,6 @@
-export const SEALEO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SEALEO: PokemonProps = {
         id: 'SEALEO',
         number: '364',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png',

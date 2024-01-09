@@ -1,4 +1,6 @@
-export const KYUREM_BLACK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KYUREM_BLACK: PokemonProps = {
         id: 'KYUREM_BLACK',
         number: '10022',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png',

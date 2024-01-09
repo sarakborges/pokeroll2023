@@ -1,4 +1,6 @@
-export const PIKACHU_STARTER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PIKACHU_STARTER: PokemonProps = {
         id: 'PIKACHU_STARTER',
         number: '10158',
         sprite: 'null',

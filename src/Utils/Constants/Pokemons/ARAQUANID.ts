@@ -1,4 +1,6 @@
-export const ARAQUANID = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ARAQUANID: PokemonProps = {
         id: 'ARAQUANID',
         number: '752',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png',

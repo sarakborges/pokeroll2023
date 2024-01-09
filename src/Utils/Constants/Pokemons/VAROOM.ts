@@ -1,4 +1,6 @@
-export const VAROOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VAROOM: PokemonProps = {
         id: 'VAROOM',
         number: '965',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png',

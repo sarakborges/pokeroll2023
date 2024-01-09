@@ -1,4 +1,6 @@
-export const MANAPHY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MANAPHY: PokemonProps = {
         id: 'MANAPHY',
         number: '490',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png',

@@ -1,4 +1,6 @@
-export const OMANYTE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const OMANYTE: PokemonProps = {
         id: 'OMANYTE',
         number: '138',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png',

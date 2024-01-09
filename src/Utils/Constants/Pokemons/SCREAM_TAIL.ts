@@ -1,4 +1,6 @@
-export const SCREAM_TAIL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SCREAM_TAIL: PokemonProps = {
         id: 'SCREAM_TAIL',
         number: '985',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png',

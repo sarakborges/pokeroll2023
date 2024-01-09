@@ -1,4 +1,6 @@
-export const PUMPKABOO_SUPER = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PUMPKABOO_SUPER: PokemonProps = {
         id: 'PUMPKABOO_SUPER',
         number: '10029',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png',

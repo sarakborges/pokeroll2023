@@ -1,4 +1,6 @@
-export const INFERNAPE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const INFERNAPE: PokemonProps = {
         id: 'INFERNAPE',
         number: '392',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png',

@@ -1,4 +1,6 @@
-export const SCIZOR_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SCIZOR_MEGA: PokemonProps = {
         id: 'SCIZOR_MEGA',
         number: '10046',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png',

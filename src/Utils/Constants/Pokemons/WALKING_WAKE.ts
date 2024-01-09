@@ -1,4 +1,6 @@
-export const WALKING_WAKE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WALKING_WAKE: PokemonProps = {
         id: 'WALKING_WAKE',
         number: '1009',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png',

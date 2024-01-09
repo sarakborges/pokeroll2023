@@ -1,4 +1,6 @@
-export const TREECKO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TREECKO: PokemonProps = {
         id: 'TREECKO',
         number: '252',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png',

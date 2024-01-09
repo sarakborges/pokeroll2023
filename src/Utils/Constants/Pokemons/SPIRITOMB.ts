@@ -1,4 +1,6 @@
-export const SPIRITOMB = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SPIRITOMB: PokemonProps = {
         id: 'SPIRITOMB',
         number: '442',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png',

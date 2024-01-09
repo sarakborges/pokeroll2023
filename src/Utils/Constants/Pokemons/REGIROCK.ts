@@ -1,4 +1,6 @@
-export const REGIROCK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const REGIROCK: PokemonProps = {
         id: 'REGIROCK',
         number: '377',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png',

@@ -1,4 +1,6 @@
-export const LUMINEON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LUMINEON: PokemonProps = {
         id: 'LUMINEON',
         number: '457',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png',

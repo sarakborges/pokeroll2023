@@ -1,4 +1,6 @@
-export const MINIOR_GREEN_METEOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MINIOR_GREEN_METEOR: PokemonProps = {
         id: 'MINIOR_GREEN_METEOR',
         number: '10132',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10132.png',

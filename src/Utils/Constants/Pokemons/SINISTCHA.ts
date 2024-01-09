@@ -1,4 +1,6 @@
-export const SINISTCHA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SINISTCHA: PokemonProps = {
         id: 'SINISTCHA',
         number: '1013',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png',

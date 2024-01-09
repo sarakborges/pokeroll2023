@@ -1,4 +1,6 @@
-export const MACHOP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MACHOP: PokemonProps = {
         id: 'MACHOP',
         number: '66',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png',

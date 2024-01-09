@@ -1,4 +1,6 @@
-export const AUDINO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AUDINO: PokemonProps = {
         id: 'AUDINO',
         number: '531',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png',

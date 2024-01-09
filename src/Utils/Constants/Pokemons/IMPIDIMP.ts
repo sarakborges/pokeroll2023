@@ -1,4 +1,6 @@
-export const IMPIDIMP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const IMPIDIMP: PokemonProps = {
         id: 'IMPIDIMP',
         number: '859',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png',

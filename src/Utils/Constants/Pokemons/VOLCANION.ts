@@ -1,4 +1,6 @@
-export const VOLCANION = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VOLCANION: PokemonProps = {
         id: 'VOLCANION',
         number: '721',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png',

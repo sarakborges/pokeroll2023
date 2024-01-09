@@ -1,4 +1,6 @@
-export const TYNAMO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYNAMO: PokemonProps = {
         id: 'TYNAMO',
         number: '602',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png',

@@ -1,4 +1,6 @@
-export const DRAGONITE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DRAGONITE: PokemonProps = {
         id: 'DRAGONITE',
         number: '149',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png',

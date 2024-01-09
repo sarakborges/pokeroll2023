@@ -1,4 +1,6 @@
-export const WISHIWASHI_SOLO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const WISHIWASHI_SOLO: PokemonProps = {
         id: 'WISHIWASHI_SOLO',
         number: '746',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png',

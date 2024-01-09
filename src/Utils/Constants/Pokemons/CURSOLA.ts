@@ -1,4 +1,6 @@
-export const CURSOLA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CURSOLA: PokemonProps = {
         id: 'CURSOLA',
         number: '864',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png',

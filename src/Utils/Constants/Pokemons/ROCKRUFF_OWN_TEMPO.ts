@@ -1,4 +1,6 @@
-export const ROCKRUFF_OWN_TEMPO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ROCKRUFF_OWN_TEMPO: PokemonProps = {
         id: 'ROCKRUFF_OWN_TEMPO',
         number: '10151',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10151.png',

@@ -1,4 +1,6 @@
-export const QUILLADIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const QUILLADIN: PokemonProps = {
         id: 'QUILLADIN',
         number: '651',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png',

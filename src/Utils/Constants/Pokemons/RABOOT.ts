@@ -1,4 +1,6 @@
-export const RABOOT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RABOOT: PokemonProps = {
         id: 'RABOOT',
         number: '814',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png',

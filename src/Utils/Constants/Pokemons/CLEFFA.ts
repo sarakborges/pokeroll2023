@@ -1,4 +1,6 @@
-export const CLEFFA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CLEFFA: PokemonProps = {
         id: 'CLEFFA',
         number: '173',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png',

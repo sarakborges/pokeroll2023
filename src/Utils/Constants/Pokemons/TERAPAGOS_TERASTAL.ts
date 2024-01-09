@@ -1,4 +1,6 @@
-export const TERAPAGOS_TERASTAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TERAPAGOS_TERASTAL: PokemonProps = {
         id: 'TERAPAGOS_TERASTAL',
         number: '10276',
         sprite: 'null',

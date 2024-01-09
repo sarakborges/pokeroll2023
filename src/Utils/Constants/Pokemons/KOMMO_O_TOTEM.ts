@@ -1,4 +1,6 @@
-export const KOMMO_O_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KOMMO_O_TOTEM: PokemonProps = {
         id: 'KOMMO_O_TOTEM',
         number: '10146',
         sprite: 'null',

@@ -1,4 +1,6 @@
-export const ORICORIO_PAU = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ORICORIO_PAU: PokemonProps = {
         id: 'ORICORIO_PAU',
         number: '10124',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10124.png',

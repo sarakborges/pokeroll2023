@@ -1,4 +1,6 @@
-export const SEADRA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SEADRA: PokemonProps = {
         id: 'SEADRA',
         number: '117',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png',

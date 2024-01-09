@@ -1,4 +1,6 @@
-export const ZEKROM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ZEKROM: PokemonProps = {
         id: 'ZEKROM',
         number: '644',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png',

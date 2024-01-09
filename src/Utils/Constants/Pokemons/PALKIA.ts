@@ -1,4 +1,6 @@
-export const PALKIA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PALKIA: PokemonProps = {
         id: 'PALKIA',
         number: '484',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png',

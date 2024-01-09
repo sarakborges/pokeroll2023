@@ -1,4 +1,6 @@
-export const MUDKIP = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MUDKIP: PokemonProps = {
         id: 'MUDKIP',
         number: '258',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png',

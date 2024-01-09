@@ -1,4 +1,6 @@
-export const VIBRAVA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const VIBRAVA: PokemonProps = {
         id: 'VIBRAVA',
         number: '329',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png',

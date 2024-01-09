@@ -1,4 +1,6 @@
-export const GLISCOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GLISCOR: PokemonProps = {
         id: 'GLISCOR',
         number: '472',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png',

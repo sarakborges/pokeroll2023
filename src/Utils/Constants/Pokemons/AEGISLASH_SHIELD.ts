@@ -1,4 +1,6 @@
-export const AEGISLASH_SHIELD = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AEGISLASH_SHIELD: PokemonProps = {
         id: 'AEGISLASH_SHIELD',
         number: '681',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png',

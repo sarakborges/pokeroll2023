@@ -1,4 +1,6 @@
-export const PALAFIN_HERO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PALAFIN_HERO: PokemonProps = {
         id: 'PALAFIN_HERO',
         number: '10256',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10256.png',

@@ -1,4 +1,6 @@
-export const BLAZIKEN_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BLAZIKEN_MEGA: PokemonProps = {
         id: 'BLAZIKEN_MEGA',
         number: '10050',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png',

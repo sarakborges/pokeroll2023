@@ -1,4 +1,6 @@
-export const KINGDRA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KINGDRA: PokemonProps = {
         id: 'KINGDRA',
         number: '230',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png',

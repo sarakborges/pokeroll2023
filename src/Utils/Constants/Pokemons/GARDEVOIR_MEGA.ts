@@ -1,4 +1,6 @@
-export const GARDEVOIR_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GARDEVOIR_MEGA: PokemonProps = {
         id: 'GARDEVOIR_MEGA',
         number: '10051',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png',

@@ -1,4 +1,6 @@
-export const LAIRON = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const LAIRON: PokemonProps = {
         id: 'LAIRON',
         number: '305',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png',

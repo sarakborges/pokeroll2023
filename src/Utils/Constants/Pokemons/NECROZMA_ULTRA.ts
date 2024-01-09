@@ -1,4 +1,6 @@
-export const NECROZMA_ULTRA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NECROZMA_ULTRA: PokemonProps = {
         id: 'NECROZMA_ULTRA',
         number: '10157',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10157.png',

@@ -1,4 +1,6 @@
-export const HATENNA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HATENNA: PokemonProps = {
         id: 'HATENNA',
         number: '856',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png',

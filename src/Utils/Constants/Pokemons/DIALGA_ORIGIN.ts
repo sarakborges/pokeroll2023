@@ -1,4 +1,6 @@
-export const DIALGA_ORIGIN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DIALGA_ORIGIN: PokemonProps = {
         id: 'DIALGA_ORIGIN',
         number: '10245',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10245.png',

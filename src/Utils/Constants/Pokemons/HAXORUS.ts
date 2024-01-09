@@ -1,4 +1,6 @@
-export const HAXORUS = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HAXORUS: PokemonProps = {
         id: 'HAXORUS',
         number: '612',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png',

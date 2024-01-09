@@ -1,4 +1,6 @@
-export const GENGAR_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GENGAR_MEGA: PokemonProps = {
         id: 'GENGAR_MEGA',
         number: '10038',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png',

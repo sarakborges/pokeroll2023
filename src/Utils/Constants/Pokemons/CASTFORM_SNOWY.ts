@@ -1,4 +1,6 @@
-export const CASTFORM_SNOWY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CASTFORM_SNOWY: PokemonProps = {
         id: 'CASTFORM_SNOWY',
         number: '10015',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png',

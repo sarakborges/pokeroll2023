@@ -1,4 +1,6 @@
-export const KROKOROK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KROKOROK: PokemonProps = {
         id: 'KROKOROK',
         number: '552',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png',

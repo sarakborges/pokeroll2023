@@ -1,4 +1,6 @@
-export const MEDICHAM_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MEDICHAM_MEGA: PokemonProps = {
         id: 'MEDICHAM_MEGA',
         number: '10054',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png',

@@ -1,4 +1,6 @@
-export const ORTHWORM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ORTHWORM: PokemonProps = {
         id: 'ORTHWORM',
         number: '968',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png',

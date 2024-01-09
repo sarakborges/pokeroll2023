@@ -1,4 +1,6 @@
-export const CETITAN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const CETITAN: PokemonProps = {
         id: 'CETITAN',
         number: '975',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png',

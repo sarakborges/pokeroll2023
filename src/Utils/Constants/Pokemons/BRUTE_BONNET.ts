@@ -1,4 +1,6 @@
-export const BRUTE_BONNET = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BRUTE_BONNET: PokemonProps = {
         id: 'BRUTE_BONNET',
         number: '986',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png',

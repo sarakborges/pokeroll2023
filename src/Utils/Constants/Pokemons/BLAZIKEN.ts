@@ -1,4 +1,6 @@
-export const BLAZIKEN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BLAZIKEN: PokemonProps = {
         id: 'BLAZIKEN',
         number: '257',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png',

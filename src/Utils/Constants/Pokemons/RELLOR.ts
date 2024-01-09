@@ -1,4 +1,6 @@
-export const RELLOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RELLOR: PokemonProps = {
         id: 'RELLOR',
         number: '953',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png',

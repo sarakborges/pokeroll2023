@@ -1,4 +1,6 @@
-export const PINECO = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PINECO: PokemonProps = {
         id: 'PINECO',
         number: '204',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png',

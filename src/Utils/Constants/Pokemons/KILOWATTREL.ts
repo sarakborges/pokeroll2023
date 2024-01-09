@@ -1,4 +1,6 @@
-export const KILOWATTREL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const KILOWATTREL: PokemonProps = {
         id: 'KILOWATTREL',
         number: '941',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png',

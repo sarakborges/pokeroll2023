@@ -1,4 +1,6 @@
-export const REGIELEKI = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const REGIELEKI: PokemonProps = {
         id: 'REGIELEKI',
         number: '894',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png',

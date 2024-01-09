@@ -1,4 +1,6 @@
-export const TYPHLOSION = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TYPHLOSION: PokemonProps = {
         id: 'TYPHLOSION',
         number: '157',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png',

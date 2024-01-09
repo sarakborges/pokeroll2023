@@ -1,4 +1,6 @@
-export const HEATMOR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HEATMOR: PokemonProps = {
         id: 'HEATMOR',
         number: '631',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png',

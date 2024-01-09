@@ -1,4 +1,6 @@
-export const SUNFLORA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SUNFLORA: PokemonProps = {
         id: 'SUNFLORA',
         number: '192',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png',

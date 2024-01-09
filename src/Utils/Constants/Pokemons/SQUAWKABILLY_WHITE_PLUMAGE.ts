@@ -1,4 +1,6 @@
-export const SQUAWKABILLY_WHITE_PLUMAGE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SQUAWKABILLY_WHITE_PLUMAGE: PokemonProps = {
         id: 'SQUAWKABILLY_WHITE_PLUMAGE',
         number: '10262',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10262.png',

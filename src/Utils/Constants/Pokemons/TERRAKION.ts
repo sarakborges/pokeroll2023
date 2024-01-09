@@ -1,4 +1,6 @@
-export const TERRAKION = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TERRAKION: PokemonProps = {
         id: 'TERRAKION',
         number: '639',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png',

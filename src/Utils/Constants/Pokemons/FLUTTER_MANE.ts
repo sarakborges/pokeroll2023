@@ -1,4 +1,6 @@
-export const FLUTTER_MANE = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FLUTTER_MANE: PokemonProps = {
         id: 'FLUTTER_MANE',
         number: '987',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png',

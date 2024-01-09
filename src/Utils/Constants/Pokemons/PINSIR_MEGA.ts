@@ -1,4 +1,6 @@
-export const PINSIR_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PINSIR_MEGA: PokemonProps = {
         id: 'PINSIR_MEGA',
         number: '10040',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png',

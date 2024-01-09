@@ -1,4 +1,6 @@
-export const MELOETTA_ARIA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MELOETTA_ARIA: PokemonProps = {
         id: 'MELOETTA_ARIA',
         number: '648',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png',

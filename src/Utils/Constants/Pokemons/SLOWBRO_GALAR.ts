@@ -1,4 +1,6 @@
-export const SLOWBRO_GALAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SLOWBRO_GALAR: PokemonProps = {
         id: 'SLOWBRO_GALAR',
         number: '10165',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png',

@@ -1,4 +1,6 @@
-export const RALTS = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const RALTS: PokemonProps = {
         id: 'RALTS',
         number: '280',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png',

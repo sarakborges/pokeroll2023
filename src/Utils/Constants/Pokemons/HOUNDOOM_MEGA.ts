@@ -1,4 +1,6 @@
-export const HOUNDOOM_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const HOUNDOOM_MEGA: PokemonProps = {
         id: 'HOUNDOOM_MEGA',
         number: '10048',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png',

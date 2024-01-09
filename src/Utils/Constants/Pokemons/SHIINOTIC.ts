@@ -1,4 +1,6 @@
-export const SHIINOTIC = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SHIINOTIC: PokemonProps = {
         id: 'SHIINOTIC',
         number: '756',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png',

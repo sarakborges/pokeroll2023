@@ -1,4 +1,6 @@
-export const MAGMORTAR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MAGMORTAR: PokemonProps = {
         id: 'MAGMORTAR',
         number: '467',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png',

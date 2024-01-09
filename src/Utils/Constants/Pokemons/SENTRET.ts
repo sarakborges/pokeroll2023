@@ -1,4 +1,6 @@
-export const SENTRET = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SENTRET: PokemonProps = {
         id: 'SENTRET',
         number: '161',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png',

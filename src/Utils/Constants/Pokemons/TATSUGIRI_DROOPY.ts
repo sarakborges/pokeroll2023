@@ -1,4 +1,6 @@
-export const TATSUGIRI_DROOPY = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const TATSUGIRI_DROOPY: PokemonProps = {
         id: 'TATSUGIRI_DROOPY',
         number: '10258',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10258.png',

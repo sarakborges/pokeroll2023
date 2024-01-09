@@ -1,4 +1,6 @@
-export const GUMSHOOS_TOTEM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const GUMSHOOS_TOTEM: PokemonProps = {
         id: 'GUMSHOOS_TOTEM',
         number: '10121',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10121.png',

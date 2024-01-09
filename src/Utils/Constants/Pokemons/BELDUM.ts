@@ -1,4 +1,6 @@
-export const BELDUM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const BELDUM: PokemonProps = {
         id: 'BELDUM',
         number: '374',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png',

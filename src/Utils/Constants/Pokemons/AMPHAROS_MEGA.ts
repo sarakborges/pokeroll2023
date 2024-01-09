@@ -1,4 +1,6 @@
-export const AMPHAROS_MEGA = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AMPHAROS_MEGA: PokemonProps = {
         id: 'AMPHAROS_MEGA',
         number: '10045',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png',

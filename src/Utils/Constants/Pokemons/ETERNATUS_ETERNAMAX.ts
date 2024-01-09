@@ -1,4 +1,6 @@
-export const ETERNATUS_ETERNAMAX = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const ETERNATUS_ETERNAMAX: PokemonProps = {
         id: 'ETERNATUS_ETERNAMAX',
         number: '10190',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10190.png',

@@ -1,4 +1,6 @@
-export const STARYU = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const STARYU: PokemonProps = {
         id: 'STARYU',
         number: '120',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png',

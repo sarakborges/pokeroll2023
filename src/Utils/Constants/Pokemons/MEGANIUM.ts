@@ -1,4 +1,6 @@
-export const MEGANIUM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MEGANIUM: PokemonProps = {
         id: 'MEGANIUM',
         number: '154',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png',

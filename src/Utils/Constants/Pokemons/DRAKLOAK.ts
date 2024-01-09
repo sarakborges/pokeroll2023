@@ -1,4 +1,6 @@
-export const DRAKLOAK = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const DRAKLOAK: PokemonProps = {
         id: 'DRAKLOAK',
         number: '886',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/886.png',

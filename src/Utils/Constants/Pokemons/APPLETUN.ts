@@ -1,4 +1,6 @@
-export const APPLETUN = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const APPLETUN: PokemonProps = {
         id: 'APPLETUN',
         number: '842',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png',

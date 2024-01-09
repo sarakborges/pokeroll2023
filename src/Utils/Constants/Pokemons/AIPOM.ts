@@ -1,4 +1,6 @@
-export const AIPOM = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const AIPOM: PokemonProps = {
         id: 'AIPOM',
         number: '190',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png',

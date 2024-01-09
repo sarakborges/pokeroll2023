@@ -1,4 +1,6 @@
-export const PECHARUNT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const PECHARUNT: PokemonProps = {
         id: 'PECHARUNT',
         number: '1025',
         sprite: 'null',

@@ -1,4 +1,6 @@
-export const MIME_JR = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const MIME_JR: PokemonProps = {
         id: 'MIME_JR',
         number: '439',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png',

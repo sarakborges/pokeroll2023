@@ -1,4 +1,6 @@
-export const NOIBAT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const NOIBAT: PokemonProps = {
         id: 'NOIBAT',
         number: '714',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png',

@@ -1,4 +1,6 @@
-export const SNORUNT = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const SNORUNT: PokemonProps = {
         id: 'SNORUNT',
         number: '361',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png',

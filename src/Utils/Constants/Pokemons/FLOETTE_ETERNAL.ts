@@ -1,4 +1,6 @@
-export const FLOETTE_ETERNAL = {
+import { PokemonProps } from '@/Utils/Props'
+
+      export const FLOETTE_ETERNAL: PokemonProps = {
         id: 'FLOETTE_ETERNAL',
         number: '10061',
         sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png',
