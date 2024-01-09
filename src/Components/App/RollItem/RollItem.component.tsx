@@ -32,7 +32,9 @@ export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
 
   const { sprite, name, types, abilities, movepool } = pokemonData!
 
-  const moveset = [...movepool.filter((moveItem) => moveItem.level <= level)]
+  const moveset = [
+    ...movepool.filter((moveItem) => parseInt(moveItem.level) <= level)
+  ]
     .slice(-4)
     .map((moveItem) => moveItem.name)
 
