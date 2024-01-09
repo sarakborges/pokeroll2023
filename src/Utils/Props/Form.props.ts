@@ -12,6 +12,7 @@ export type FormIdsType =
   | 'character_name'
   | 'character_photoplayer'
   | 'character_picture'
+  | 'character_sheet'
 
 export interface FieldsProps {
   ID: FormIdsType

@@ -1,3 +1,5 @@
+export { HomeTemplate } from './Home'
+export { DiesTemplate } from './Dies'
 export { RollsTemplate } from './Rolls'
 export { PlayersTemplate } from './Players'
 

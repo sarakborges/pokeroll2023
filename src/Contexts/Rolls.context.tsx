@@ -13,7 +13,7 @@ const INITIAL_STATE: RollsProps = {
   rollsData: [],
   currentPage: 1,
   totalPages: 1,
-  itemsPerPage: 2
+  itemsPerPage: 20
 }
 
 export const RollsContext = createContext<{

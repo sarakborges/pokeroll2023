@@ -32,18 +32,26 @@ export const CharactersList = styled.ul`
   gap: 24px;
 
   > li {
-    display: flex;
-    flex-flow: column;
-    place-items: center;
-    gap: 24px;
+    > a {
+      display: flex;
+      flex-flow: column;
+      place-items: center;
+      gap: 24px;
 
-    padding: 24px;
+      padding: 24px;
 
-    background-color: var(--backgroundDarker);
-    border-radius: 24px;
+      background-color: var(--backgroundDarker);
+      border-radius: 24px;
 
-    > img {
-      border-radius: 16px;
+      transition: background-color 0.3s;
+
+      > img {
+        border-radius: 16px;
+      }
+
+      &:hover {
+        background-color: var(--primaryButtonBackground);
+      }
     }
   }
 `

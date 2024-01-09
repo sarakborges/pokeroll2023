@@ -33,6 +33,15 @@ export const NEW_CHARACTER_FORM: GenericFormStepsProps = {
           PLACEHOLDER: `https://linkdafoto`,
           REQUIRED: true,
           REQUIRED_ERROR: `Preencha a foto do personagem.`
+        },
+
+        {
+          ID: `character_sheet`,
+          TYPE: `text`,
+          LABEL: `Ficha do personagem`,
+          PLACEHOLDER: `https://linkdaficha`,
+          REQUIRED: true,
+          REQUIRED_ERROR: `Preencha a ficha do personagem.`
         }
       ]
     }

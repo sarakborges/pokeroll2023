@@ -3,4 +3,5 @@ export type CharacterProps = {
   photoplayer: string
   picture: string
   registeredAt: Date
+  sheetLink: string
 }
