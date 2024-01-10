@@ -44,7 +44,7 @@ export const HomeTemplate: FC = () => {
               <li key={linkItem.TEXT}>
                 <Text size="lg">
                   <a href={linkItem.LINK} target="_blank">
-                    {linkItem.ICON || <></>}
+                    {linkItem.ICON ? linkItem.ICON : <></>}
                     <>{linkItem.TEXT}</>
                   </a>
                 </Text>
