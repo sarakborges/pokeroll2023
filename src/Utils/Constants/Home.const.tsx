@@ -11,7 +11,7 @@ export const HOME_LINKS = [
 
   {
     TEXT: `Central (yoble.us)`,
-    LINK: `https://yoble.com.br/c/paradoxrpg`
+    LINK: `https://yoble.us/c/paradoxrpg`
   },
 
   {
