@@ -24,11 +24,6 @@ export const GlobalStyle = createGlobalStyle`
 
     --fontFamily: "Source Sans 3", sans-serif;
     --fontColor: hsl(var(--hue) 30% 90% / 100%);
-
-    --placeholderBg: linear-gradient(90deg,
-                      hsl(var(--hue) 20% 85% / 100%),
-                      hsl(var(--hue) 20% 75% / 100%),
-                      hsl(var(--hue) 20% 85% / 100%));
   }
 
   html{
