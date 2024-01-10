@@ -33,7 +33,7 @@ export const Field: FC<FieldProps> = ({
 
       {type === 'password' && (
         <>
-          <Button onClick={toggleDisplayPassword} transparent>
+          <Button onClick={toggleDisplayPassword}>
             {displayPassword ? <EyeOff /> : <Eye />}
           </Button>
 

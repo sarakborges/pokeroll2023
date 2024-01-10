@@ -28,7 +28,7 @@ export const BackofficePlayersTemplate: FC = () => {
   const [currentRef, setCurrentRef] = useState<ElementRef<typeof Modal> | null>(
     null
   )
-  const { playersState, setPlayersState } = useContext(PlayersContext)
+  const { setPlayersState } = useContext(PlayersContext)
 
   const getPlayers = useCallback(async () => {
     const playersData = await PlayersAPI.getPlayers({})
@@ -64,7 +64,7 @@ export const BackofficePlayersTemplate: FC = () => {
           {BACKOFFICE_PLAYERS_HEADER}
         </Header>
 
-        <BackofficePlayersList playersList={playersState.playersData} />
+        <BackofficePlayersList />
       </Styled.BackofficePlayersTemplate>
     </AuthedLayout>
   )

@@ -1,4 +1,4 @@
-import { DiesPage, HomePage, PlayersPage, RollsPage } from '@/Pages'
+import { DiesPage, HomePage, LoginPage, PlayersPage, RollsPage } from '@/Pages'
 
 export type ROUTES_KEYS = 'HOME' | 'PLAYERS' | 'DIES' | 'POKEMON'
 
@@ -25,5 +25,11 @@ export const ROUTES = {
     PATH: '/players',
     TITLE: ' - Fichário',
     ELEMENT: <PlayersPage />
+  },
+
+  LOGIN: {
+    PATH: '/login',
+    TITLE: ' - Login',
+    ELEMENT: <LoginPage />
   }
 }

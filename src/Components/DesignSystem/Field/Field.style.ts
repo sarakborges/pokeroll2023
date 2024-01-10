@@ -14,7 +14,7 @@ export const FieldWrapper = styled.div<FieldWrapperProps>`
 
   > button {
     position: absolute;
-    top: 21px;
+    top: 25px;
     right: 0;
 
     height: 31px;

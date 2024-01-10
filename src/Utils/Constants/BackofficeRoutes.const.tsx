@@ -16,8 +16,8 @@ export const BACKOFFICE_ROUTES = {
 
   PLACES: {
     PATH: '/places',
-    TITLE: ' - Backoffice - Locais',
-    LINK_TEXT: 'Locais',
+    TITLE: ' - Backoffice - Cenários',
+    LINK_TEXT: 'Cenários',
     ELEMENT: <BackofficePlacesPage />
   },
 

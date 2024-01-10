@@ -1,12 +1,5 @@
 export type FormIdsType =
-  | 'register_name'
-  | 'register_email'
-  | 'register_password'
-  | 'register_confirm_password'
-  | 'register_gender'
-  | 'register_profile_name'
-  | 'register_profile_url'
-  | 'login_email'
+  | 'login_user'
   | 'login_password'
   | 'player_name'
   | 'character_name'

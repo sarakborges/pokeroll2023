@@ -1,31 +1,30 @@
-import { SITE_TITLE } from '@/Utils/Texts'
 import { GenericFormStepsProps } from '@/Utils/Props'
 
 export const LOGIN_FORM: GenericFormStepsProps = {
-  ERROR: `All required fields need to be filled before we can advance.`,
+  ERROR: `Preencha todos os campos.`,
 
   STEPS: [
     {
-      TEXT: `Welcome back to ${SITE_TITLE}!`,
-      SUBMIT_TEXT: `Log in`,
+      TEXT: `Bem vinde de volta, adm!`,
+      SUBMIT_TEXT: `Entrar`,
 
       FIELDS: [
         {
-          ID: `login_email`,
+          ID: `login_user`,
           TYPE: `text`,
-          LABEL: `Your account email`,
-          PLACEHOLDER: `your@email.com`,
+          LABEL: `Usuário`,
+          PLACEHOLDER: `usuário de adm`,
           REQUIRED: true,
-          REQUIRED_ERROR: `Your email is required to login.`
+          REQUIRED_ERROR: `Preencha o usuário.`
         },
 
         {
           ID: `login_password`,
           TYPE: `password`,
-          LABEL: `Your account password`,
+          LABEL: `Senha`,
           PLACEHOLDER: `!#0%&g8#4&A`,
           REQUIRED: true,
-          REQUIRED_ERROR: `Your password is required to login.`
+          REQUIRED_ERROR: `Preencha a senha.`
         }
       ]
     }

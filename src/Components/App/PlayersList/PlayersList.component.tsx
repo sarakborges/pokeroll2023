@@ -1,27 +1,41 @@
-import { FC } from 'react'
+import { FC, useContext } from 'react'
+import { Link } from 'react-router-dom'
 
-import { PlayerProps } from '@/Utils/Props'
+import { PlayersContext } from '@/Contexts'
+import { PLAYERS_POINTS } from '@/Utils/Texts'
 
 import { Picture, Text } from '@/Components/DesignSystem'
 
 import * as Styled from './PlayersList.style'
-import { Link } from 'react-router-dom'
 
-export const PlayersList: FC<{ playersList: PlayerProps[] }> = ({
-  playersList
-}) => {
+export const PlayersList: FC = () => {
+  const { playersState } = useContext(PlayersContext)
+
+  if (!playersState.playersData?.length) {
+    return <></>
+  }
+
   return (
     <Styled.PlayersList>
-      {playersList.map((playerItem) => (
+      {playersState.playersData.map((playerItem) => (
         <li key={playerItem.name}>
           <Styled.PlayersTitle>
-            <Text size="lg">{playerItem.name}</Text>
+            <section>
+              <Text size="lg">{playerItem.name}</Text>
+
+              <Styled.PlayerPoints>
+                <Text size="lg">
+                  <>{playerItem.points | 0}</>
+                  <>{PLAYERS_POINTS}</>
+                </Text>
+              </Styled.PlayerPoints>
+            </section>
           </Styled.PlayersTitle>
 
           {!!playerItem?.characters?.length && (
             <Styled.CharactersList>
               {playerItem.characters.map((characterItem) => (
-                <li key={characterItem.name}>
+                <li key={characterItem.id}>
                   <Link to={characterItem.sheetLink}>
                     <Picture src={characterItem.picture} w={160} squared />
 

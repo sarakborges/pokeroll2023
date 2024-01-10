@@ -5,13 +5,26 @@ export const PlayersTitle = styled.div`
   place-items: center;
   place-content: space-between;
 
-  > button {
-    gap: 12px;
+  > section {
+    display: flex;
+    place-items: center;
+    gap: 16px;
 
-    > svg {
-      width: 24px;
+    > button {
+      gap: 12px;
+
+      > svg {
+        width: 24px;
+      }
     }
   }
+`
+
+export const PlayerPoints = styled.div`
+  padding: 8px 12px;
+
+  background-color: var(--primaryButtonBackground);
+  border-radius: 12px;
 `
 
 export const PlayersList = styled.ul`

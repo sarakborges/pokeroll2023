@@ -1,4 +1,5 @@
 export { HomePage } from './Home'
+export { LoginPage } from './Login'
 export { DiesPage } from './Dies'
 export { RollsPage } from './Rolls'
 export { PlayersPage } from './Players'

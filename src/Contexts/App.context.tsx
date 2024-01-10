@@ -2,7 +2,9 @@ import { Dispatch, createContext, useState, FC, ReactNode } from 'react'
 
 const INITIAL_STATE = {}
 
-type AppProps = {}
+type AppProps = {
+  session?: boolean
+}
 
 export const AppContext = createContext<{
   appState: AppProps

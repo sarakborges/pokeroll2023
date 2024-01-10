@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     --background: hsl(var(--hue) 20% 15% / 100%);
     --backgroundDarker: hsl(var(--hue) 20% 12% / 100%);
     --modalBackground: hsl(var(--hue) 20% 15% / 70%);
+    --appBackground: hsl(var(--hue) 20% 15% / 100%);
     --text: hsl(var(--hue) 30% 90% / 100%);
     --textWeak: hsl(var(--hue) 30% 65% / 100%);
     --link: hsl(var(--hue) 40% 40% / 100%);
@@ -23,6 +24,11 @@ export const GlobalStyle = createGlobalStyle`
 
     --fontFamily: "Source Sans 3", sans-serif;
     --fontColor: hsl(var(--hue) 30% 90% / 100%);
+
+    --placeholderBg: linear-gradient(90deg,
+                      hsl(var(--hue) 20% 85% / 100%),
+                      hsl(var(--hue) 20% 75% / 100%),
+                      hsl(var(--hue) 20% 85% / 100%));
   }
 
   html{

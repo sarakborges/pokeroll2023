@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const AuthedLayout = styled.div`
-  --appBackground: hsl(var(--hue) 20% 15% / 100%);
-
   display: flex;
 
   max-width: 100%;

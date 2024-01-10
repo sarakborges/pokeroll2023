@@ -10,15 +10,19 @@ import { Header, PlayersList } from '@/Components/App'
 import * as Styled from './Players.style'
 
 export const PlayersTemplate: FC = () => {
-  const { playersState, setPlayersState } = useContext(PlayersContext)
+  const { setPlayersState } = useContext(PlayersContext)
 
   const getPlayers = useCallback(async () => {
-    const playersData = await PlayersAPI.getPlayers({})
+    try {
+      const playersData = await PlayersAPI.getPlayers({})
 
-    setPlayersState({
-      playersData: playersData.data
-    })
-  }, [location])
+      setPlayersState({
+        playersData: playersData.data
+      })
+    } catch (e) {
+      console.log(e)
+    }
+  }, [])
 
   useEffect(() => {
     getPlayers()
@@ -29,7 +33,7 @@ export const PlayersTemplate: FC = () => {
       <Styled.PlayersTemplate>
         <Header>Fichário</Header>
 
-        <PlayersList playersList={playersState.playersData} />
+        <PlayersList />
       </Styled.PlayersTemplate>
     </NonAuthedLayout>
   )

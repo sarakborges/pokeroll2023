@@ -1,15 +1,18 @@
-import { ElementRef, FC, useEffect, useRef, useState } from 'react'
-import { PlusLg } from 'styled-icons/bootstrap'
+import { ElementRef, FC, useContext, useEffect, useRef, useState } from 'react'
+import { PlusLg, Trash3 } from 'styled-icons/bootstrap'
+import { Pencil } from 'styled-icons/heroicons-solid'
 
 import {
   CHARACTER_ACTIONS,
   CHARACTER_PHOTOPLAYER,
   CHARACTER_REGISTERED_AT,
   CHARACTER_TITLE,
-  NEW_CHARACTER_ACTION
+  EDIT_PLAYER_ACTION,
+  NEW_CHARACTER_ACTION,
+  PLAYERS_POINTS
 } from '@/Utils/Texts'
 
-import { PlayerProps } from '@/Utils/Props'
+import { PlayersContext } from '@/Contexts'
 import { getDate } from '@/Utils/Functions'
 
 import { NewCharacterForm } from '@/Components/App'
@@ -17,9 +20,13 @@ import { Button, Modal, Picture, Text } from '@/Components/DesignSystem'
 
 import * as Styled from './PlayersList.style'
 
-export const BackofficePlayersList: FC<{ playersList: PlayerProps[] }> = ({
-  playersList
-}) => {
+export const BackofficePlayersList: FC = () => {
+  const { playersState } = useContext(PlayersContext)
+
+  if (!playersState.playersData?.length) {
+    return <></>
+  }
+
   const modalRef = useRef<ElementRef<typeof Modal>>(null)
 
   const [currentRef, setCurrentRef] = useState<ElementRef<typeof Modal> | null>(
@@ -42,15 +49,31 @@ export const BackofficePlayersList: FC<{ playersList: PlayerProps[] }> = ({
         <NewCharacterForm playerId={playerId} />
       </Modal>
 
-      {playersList.map((playerItem) => (
+      {playersState.playersData.map((playerItem) => (
         <li key={playerItem.id}>
           <Styled.PlayersTitle>
-            <Text size="lg">{playerItem.name}</Text>
+            <section>
+              <Text size="lg">{playerItem.name}</Text>
 
-            <Button onClick={() => toggleNewCharacter(playerItem.id)}>
-              <PlusLg />
-              <Text>{NEW_CHARACTER_ACTION}</Text>
-            </Button>
+              <Styled.PlayerPoints>
+                <Text size="lg">
+                  <>{playerItem.points | 0}</>
+                  <>{PLAYERS_POINTS}</>
+                </Text>
+              </Styled.PlayerPoints>
+            </section>
+
+            <section>
+              <Button onClick={() => toggleNewCharacter(playerItem.id)}>
+                <PlusLg />
+                <Text>{NEW_CHARACTER_ACTION}</Text>
+              </Button>
+
+              <Button>
+                <Pencil />
+                <Text>{EDIT_PLAYER_ACTION}</Text>
+              </Button>
+            </section>
           </Styled.PlayersTitle>
 
           {!!playerItem.characters?.length && (
@@ -65,7 +88,7 @@ export const BackofficePlayersList: FC<{ playersList: PlayerProps[] }> = ({
               </li>
 
               {playerItem.characters.map((characterItem) => (
-                <li key={characterItem.name}>
+                <li key={characterItem.id}>
                   <div>
                     <Picture src={characterItem.picture} w={40} squared />
                   </div>
@@ -77,7 +100,15 @@ export const BackofficePlayersList: FC<{ playersList: PlayerProps[] }> = ({
                     {getDate(characterItem.registeredAt, 'date')}
                   </Text>
 
-                  <div></div>
+                  <Styled.CharacterActions>
+                    <Button>
+                      <Pencil />
+                    </Button>
+
+                    <Button>
+                      <Trash3 />
+                    </Button>
+                  </Styled.CharacterActions>
                 </li>
               ))}
             </Styled.CharactersList>
