@@ -15,3 +15,36 @@ export const HomeTemplate = styled.div`
     }
   }
 `
+
+export const HomeLinks = styled.ul`
+  display: flex;
+  gap: 16px;
+
+  > li {
+    > p {
+      > a {
+        display: flex;
+        gap: 12px;
+
+        padding: 8px 12px;
+
+        color: var(--primaryButtonTextColor);
+
+        background-color: var(--primaryButtonBackground);
+        border-radius: 8px;
+
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: var(--primaryButtonHoverBgColor);
+        }
+
+        > svg {
+          width: 16px;
+
+          fill: var(--primaryButtonTextColor);
+        }
+      }
+    }
+  }
+`

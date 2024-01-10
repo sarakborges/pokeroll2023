@@ -21,6 +21,7 @@ export const HOME_HEADER = `Bem vinde a ${SITE_TITLE}!`
 export const HOME_TEXT = `PDOX é um RPG baseado no universo de Pocket Monster (Pokémon) em uma região completamente nova, a região de Axis. O jogo se desenvolve inspirado em Pokémon Origins, Pokémon Generations e Pokémon Horizons principalmente, mas tem influências abrangentes devido as inspirações externas dos criadores. Em Axis, um arquipélago artificial fora do governo da Liga Pokémon humanos estudam Pokémon e os criam almejando um futuro brilhante e utópico. Por isso há novas aventuras, mistérios, sonhos, amigos e rivais surgindo a cada dia. Divirtam-se!`
 export const HOME_TOOLS_HEADER = `Ferramenta`
 export const HOME_TOOLS_TEXT = `Essa ferramenta foi desenvolvida pela Sara para o RPG. Nela, é possível fazer a rolagem de pokémon e dados, ver o histórico de ambos, ver a listagem de fichas dos jogadores, entre demais funcionalidades que podem vir a ser adicionadas com o passar do tempo. Tudo isso foi criado no intuito de facilitar a vida dos jogadores, afim de evitar que precisem rolar tantos dados para capturar um pokémon, e maximizar o fator divertimento.`
+export const HOME_LINKS_HEADER = `Links úteis`
 
 export const PLAYERS_HEADER = `Fichário`
 export const PLAYERS_POINTS = ` pontos`
