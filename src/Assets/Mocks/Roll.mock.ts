@@ -3,7 +3,7 @@ import { RollProps } from '@/Utils/Props'
 export const RollMock: RollProps[] = [
   {
     id: 'fghsgfsh',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'FERALIGATR',
     gender: 'F',
@@ -14,7 +14,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghsasdafsh',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'KROOKODILE',
     gender: 'M',
@@ -25,7 +25,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghsgfshasdad',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'SKELEDIRGE',
     gender: 'G',
@@ -36,7 +36,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'SPRIGATITO',
     gender: 'F',
@@ -47,7 +47,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad1',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'DEOXYS_NORMAL',
     gender: 'F',
@@ -58,7 +58,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad2',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'DEOXYS_DEFENSE',
     gender: 'F',
@@ -69,7 +69,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad3',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'VULPIX',
     gender: 'F',
@@ -80,7 +80,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad4',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'VULPIX_ALOLA',
     gender: 'F',
@@ -91,7 +91,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad5',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'WUGTRIO',
     gender: 'F',
@@ -102,7 +102,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad6',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'MEWTWO',
     gender: 'F',
@@ -113,7 +113,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad7',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'DRAGALGE',
     gender: 'F',
@@ -124,7 +124,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad8',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'MR_MIME_GALAR',
     gender: 'F',
@@ -135,7 +135,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad9',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'MR_RIME',
     gender: 'F',
@@ -146,7 +146,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad10',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'MAGMORTAR',
     gender: 'F',
@@ -157,7 +157,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad11',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'ELECTRODE',
     gender: 'F',
@@ -168,7 +168,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad12',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'DECIDUEYE_HISUI',
     gender: 'F',
@@ -179,7 +179,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad13',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'CHARIZARD',
     gender: 'F',
@@ -190,7 +190,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad14',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'HYDREIGON',
     gender: 'F',
@@ -201,7 +201,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad15',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'MR_MIME',
     gender: 'F',
@@ -212,7 +212,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad16',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'SNORLAX',
     gender: 'F',
@@ -223,7 +223,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad17',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'NIHILEGO',
     gender: 'F',
@@ -234,7 +234,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad18',
-    player: 'Sara Hope',
+    character: 'sh',
     place: 'CEMETERY',
     pokemon: 'TOXICROAK',
     gender: 'F',
@@ -245,7 +245,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad19',
-    player: 'Sara Hope',
+    character: 'Hano Grassly',
     place: 'CEMETERY',
     pokemon: 'DELPHOX',
     gender: 'F',
@@ -256,7 +256,7 @@ export const RollMock: RollProps[] = [
 
   {
     id: 'fghssdad20',
-    player: 'Sara Hope',
+    character: 'Hano Grassly',
     place: 'CEMETERY',
     pokemon: 'GRENINJA',
     gender: 'F',
