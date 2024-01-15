@@ -42,6 +42,15 @@ export const NEW_CHARACTER_FORM: GenericFormStepsProps = {
           PLACEHOLDER: `https://linkdaficha`,
           REQUIRED: true,
           REQUIRED_ERROR: `Preencha a ficha do personagem.`
+        },
+
+        {
+          ID: `character_pronouns`,
+          TYPE: `text`,
+          LABEL: `Pronomes do personagem`,
+          PLACEHOLDER: `ela/dela`,
+          REQUIRED: true,
+          REQUIRED_ERROR: `Preencha os pronomes do personagem.`
         }
       ]
     }

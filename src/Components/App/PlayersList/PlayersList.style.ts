@@ -1,41 +1,42 @@
 import styled from 'styled-components'
 
-export const PlayersTitle = styled.div`
+export const PlayersTitle = styled.header`
   display: flex;
   place-items: center;
   place-content: space-between;
 
-  > section {
+  background-color: var(--backgroundDarker);
+
+  padding: 16px 24px;
+
+  > main {
     display: flex;
-    place-items: center;
-    gap: 16px;
+    flex-flow: column;
+    gap: 24px;
 
-    > button {
-      gap: 12px;
+    padding: 0 48px;
 
-      > svg {
-        width: 24px;
-      }
+    > section {
+      display: flex;
+      flex-flow: column;
+      place-items: center;
+      gap: 8px;
     }
   }
 `
 
-export const PlayerPoints = styled.div`
-  padding: 8px 12px;
-
-  background-color: var(--primaryButtonBackground);
-  border-radius: 12px;
-`
-
 export const PlayersList = styled.ul`
   display: flex;
-  flex-flow: column;
+  flex-wrap: wrap;
   gap: 48px;
 
   > li {
     display: flex;
     flex-flow: column;
     gap: 16px;
+
+    width: 420px;
+    max-width: 100%;
   }
 `
 
@@ -45,33 +46,40 @@ export const CharactersList = styled.ul`
   gap: 24px;
 
   > li {
+    width: 100%;
+
     > a {
       display: flex;
-      flex-flow: column;
-      place-items: center;
-      gap: 24px;
+      place-items: flex-end;
+      gap: 16px;
 
-      padding: 24px;
-
-      background-color: var(--backgroundDarker);
-      border-radius: 24px;
-
-      transition: background-color 0.3s;
+      transition: border-color 0.3s;
 
       > img {
-        border-radius: 16px;
+        border-radius: 100%;
+      }
+
+      > section {
+        display: flex;
+        flex-flow: column;
+        place-items: center;
+        gap: 4px;
+
+        flex: 1;
+        padding: 12px;
+
+        text-align: center;
+
+        border-bottom: 1px solid var(--primaryButtonBackground);
+
+        transition: border-color 0.3s;
       }
 
       &:hover {
-        background-color: var(--primaryButtonBackground);
+        > section {
+          border-color: var(--primaryButtonHoverBgColor);
+        }
       }
     }
   }
-`
-
-export const CharacterInfo = styled.section`
-  display: flex;
-  flex-flow: column;
-  place-items: center;
-  gap: 8px;
 `

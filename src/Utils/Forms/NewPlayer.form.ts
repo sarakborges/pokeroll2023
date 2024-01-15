@@ -15,6 +15,24 @@ export const NEW_PLAYER_FORM: GenericFormStepsProps = {
           PLACEHOLDER: `Sara`,
           REQUIRED: true,
           REQUIRED_ERROR: `Preencha o nome do jogador.`
+        },
+
+        {
+          ID: `player_pronouns`,
+          TYPE: `text`,
+          LABEL: `Pronomes do jogador`,
+          PLACEHOLDER: `ela/dela`,
+          REQUIRED: true,
+          REQUIRED_ERROR: `Preencha os pronomes do jogador.`
+        },
+
+        {
+          ID: `player_points`,
+          TYPE: `text`,
+          LABEL: `Pontos`,
+          PLACEHOLDER: `500`,
+          REQUIRED: true,
+          REQUIRED_ERROR: `Preencha quantos pontos o jogador possui.`
         }
       ]
     }

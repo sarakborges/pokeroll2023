@@ -24,6 +24,8 @@ export const NewCharacterForm: FC<{ playerId: string }> = ({ playerId }) => {
       name: newCharacterFormState.form[0].value,
       photoplayer: newCharacterFormState.form[1].value,
       picture: newCharacterFormState.form[2].value,
+      sheet: newCharacterFormState.form[3].value,
+      pronouns: newCharacterFormState.form[4].value,
       registeredAt: new Date()
     }
 

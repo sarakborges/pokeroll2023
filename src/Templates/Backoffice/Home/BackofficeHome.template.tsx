@@ -39,7 +39,7 @@ export const BackofficeHomeTemplate: FC = () => {
         <Styled.Dashboard>
           {!!mostRolls && (
             <li>
-              <Text light>Personagem com mais rolagens:</Text>
+              <Text semibold>Personagem com mais rolagens:</Text>
 
               <Picture
                 src={mostRolls.character.picture}
@@ -52,6 +52,8 @@ export const BackofficeHomeTemplate: FC = () => {
                 <Text semibold size="lg">
                   {mostRolls?.character.name}
                 </Text>
+
+                <Text light>{mostRolls?.character.rolls} rolagens</Text>
 
                 <Text light>Jogador: {mostRolls?.name}</Text>
               </section>

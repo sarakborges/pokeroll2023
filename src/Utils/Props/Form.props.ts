@@ -2,10 +2,13 @@ export type FormIdsType =
   | 'login_user'
   | 'login_password'
   | 'player_name'
+  | 'player_points'
+  | 'player_pronouns'
   | 'character_name'
   | 'character_photoplayer'
   | 'character_picture'
   | 'character_sheet'
+  | 'character_pronouns'
 
 export interface FieldsProps {
   ID: FormIdsType

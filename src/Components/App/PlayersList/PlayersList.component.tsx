@@ -20,16 +20,26 @@ export const PlayersList: FC = () => {
       {playersState.playersData.map((playerItem) => (
         <li key={playerItem.name}>
           <Styled.PlayersTitle>
-            <section>
-              <Text size="lg">{playerItem.name}</Text>
+            <main>
+              <section>
+                <Text semibold size="lg">
+                  {playerItem.name}
+                </Text>
 
-              <Styled.PlayerPoints>
-                <Text size="lg">
+                <Text light>({playerItem.pronouns})</Text>
+              </section>
+
+              <section>
+                <Text light>
                   <>{playerItem.points | 0}</>
                   <>{PLAYERS_POINTS}</>
                 </Text>
-              </Styled.PlayerPoints>
-            </section>
+              </section>
+            </main>
+
+            <aside>
+              <Picture src={`/img/${playerItem.season}.png`} w={60} />
+            </aside>
           </Styled.PlayersTitle>
 
           {!!playerItem?.characters?.length && (
@@ -37,12 +47,18 @@ export const PlayersList: FC = () => {
               {playerItem.characters.map((characterItem) => (
                 <li key={characterItem.id}>
                   <Link to={characterItem.sheetLink}>
-                    <Picture src={characterItem.picture} w={160} squared />
+                    <Picture src={characterItem.picture} w={40} squared />
 
-                    <Styled.CharacterInfo>
+                    <section>
                       <Text>{characterItem.name}</Text>
+                      <Text size="sm" light>
+                        ({characterItem.pronouns})
+                      </Text>
+                    </section>
+
+                    <section>
                       <Text light>{characterItem.photoplayer}</Text>
-                    </Styled.CharacterInfo>
+                    </section>
                   </Link>
                 </li>
               ))}

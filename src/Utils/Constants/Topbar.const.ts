@@ -20,7 +20,7 @@ export const MENU = {
 
   PLAYERS: {
     PATH: ROUTES.PLAYERS.PATH,
-    TITLE: 'Fichário'
+    TITLE: 'Characterdex'
   },
 
   BACKOFFICE: {

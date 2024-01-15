@@ -23,7 +23,7 @@ export const ROUTES = {
 
   PLAYERS: {
     PATH: '/players',
-    TITLE: ' - Fichário',
+    TITLE: ' - Characterdex',
     ELEMENT: <PlayersPage />
   },
 

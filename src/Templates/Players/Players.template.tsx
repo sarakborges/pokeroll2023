@@ -2,6 +2,7 @@ import { FC, useCallback, useContext, useEffect } from 'react'
 
 import { PlayersAPI } from '@/Apis'
 import { PlayersContext } from '@/Contexts'
+import { PLAYERS_HEADER } from '@/Utils/Texts'
 
 import { NonAuthedLayout } from '@/Layouts'
 
@@ -31,7 +32,7 @@ export const PlayersTemplate: FC = () => {
   return (
     <NonAuthedLayout>
       <Styled.PlayersTemplate>
-        <Header>Fichário</Header>
+        <Header>{PLAYERS_HEADER}</Header>
 
         <PlayersList />
       </Styled.PlayersTemplate>

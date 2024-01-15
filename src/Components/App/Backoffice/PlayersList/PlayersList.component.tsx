@@ -7,6 +7,7 @@ import {
   CHARACTER_PHOTOPLAYER,
   CHARACTER_REGISTERED_AT,
   CHARACTER_TITLE,
+  DELETE_PLAYER_ACTION,
   EDIT_PLAYER_ACTION,
   NEW_CHARACTER_ACTION,
   PLAYERS_POINTS
@@ -53,7 +54,10 @@ export const BackofficePlayersList: FC = () => {
         <li key={playerItem.id}>
           <Styled.PlayersTitle>
             <section>
-              <Text size="lg">{playerItem.name}</Text>
+              <Text size="lg">
+                <>{playerItem.name}</>
+                <> ({playerItem.pronouns})</>
+              </Text>
 
               <Styled.PlayerPoints>
                 <Text size="lg">
@@ -72,6 +76,11 @@ export const BackofficePlayersList: FC = () => {
               <Button>
                 <Pencil />
                 <Text>{EDIT_PLAYER_ACTION}</Text>
+              </Button>
+
+              <Button>
+                <Trash3 />
+                <Text>{DELETE_PLAYER_ACTION}</Text>
               </Button>
             </section>
           </Styled.PlayersTitle>
@@ -93,7 +102,11 @@ export const BackofficePlayersList: FC = () => {
                     <Picture src={characterItem.picture} w={40} squared />
                   </div>
 
-                  <Text light>{characterItem.name}</Text>
+                  <Text light>
+                    <>{characterItem.name}</>
+                    <> ({characterItem.pronouns})</>
+                  </Text>
+
                   <Text light>{characterItem.photoplayer}</Text>
 
                   <Text light>

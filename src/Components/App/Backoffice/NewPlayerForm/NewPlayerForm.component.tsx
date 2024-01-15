@@ -37,7 +37,9 @@ export const NewPlayerForm: FC = () => {
 
         {
           id: `${Math.random()}`,
-          name: newPlayerName
+          name: newPlayerName,
+          pronouns: newPlayerFormState.form[1].value,
+          points: newPlayerFormState.form[2].value
         }
       ]
     })

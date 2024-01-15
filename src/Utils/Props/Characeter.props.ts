@@ -3,6 +3,7 @@ export type CharacterProps = {
   name: string
   photoplayer: string
   picture: string
+  pronouns: string
   registeredAt: Date
   sheetLink: string
 }
