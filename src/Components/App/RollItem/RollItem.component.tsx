@@ -18,7 +18,7 @@ import { Picture, Text } from '@/Components/DesignSystem'
 import * as Styled from './RollItem.style'
 
 export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
-  const { time, pokemon, player, place, gender, level, ability } = rollInfo
+  const { time, pokemon, character, place, gender, level, ability } = rollInfo
 
   const rollDate = getDate(time)
 
@@ -47,7 +47,7 @@ export const RollItem: FC<{ rollInfo: RollProps }> = ({ rollInfo }) => {
     <Styled.RollItemtWrapper>
       <header>
         <Text light>
-          <span>{player}</span>
+          <span>{character}</span>
           <>{SEARCHED_FOR}</>
           <>{PLACES[place].PREPOSITION || PREPOSITION_DEFAULT}</>
           <> </>
