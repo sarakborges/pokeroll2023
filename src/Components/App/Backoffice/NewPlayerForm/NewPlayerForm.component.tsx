@@ -32,6 +32,12 @@ export const NewPlayerForm: FC = () => {
       return
     }
 
+    const season = newPlayerFormState.form[3].value as
+      | `Verão`
+      | `Outono`
+      | `Inverno`
+      | `Primavera`
+
     setPlayersState({
       playersData: [
         ...playersState.playersData,
@@ -41,7 +47,7 @@ export const NewPlayerForm: FC = () => {
           name: newPlayerName,
           pronouns: newPlayerFormState.form[1].value,
           points: newPlayerFormState.form[2].value,
-          season: SEASONS[newPlayerFormState.form[3].value]
+          season: SEASONS[season]
         }
       ]
     })
