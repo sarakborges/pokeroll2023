@@ -1,5 +1,6 @@
 import { FC, useContext, useState } from 'react'
 
+import { SEASONS } from '@/Utils/Constants'
 import { NEW_PLAYER_FORM } from '@/Utils/Forms'
 import { GenericFormProps } from '@/Utils/Props'
 
@@ -39,7 +40,8 @@ export const NewPlayerForm: FC = () => {
           id: `${Math.random()}`,
           name: newPlayerName,
           pronouns: newPlayerFormState.form[1].value,
-          points: newPlayerFormState.form[2].value
+          points: newPlayerFormState.form[2].value,
+          season: SEASONS[newPlayerFormState.form[3].value]
         }
       ]
     })

@@ -65,6 +65,8 @@ export const BackofficePlayersList: FC = () => {
                   <>{PLAYERS_POINTS}</>
                 </Text>
               </Styled.PlayerPoints>
+
+              <Picture src={`/img/${playerItem.season}.png`} w={40} />
             </section>
 
             <section>

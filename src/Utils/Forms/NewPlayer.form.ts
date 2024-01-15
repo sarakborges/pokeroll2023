@@ -33,6 +33,16 @@ export const NEW_PLAYER_FORM: GenericFormStepsProps = {
           PLACEHOLDER: `500`,
           REQUIRED: true,
           REQUIRED_ERROR: `Preencha quantos pontos o jogador possui.`
+        },
+
+        {
+          ID: `player_season`,
+          TYPE: `select`,
+          LABEL: `Estação do ano`,
+          PLACEHOLDER: `Estação do ano`,
+          REQUIRED: true,
+          REQUIRED_ERROR: `Preencha quantos pontos o jogador possui.`,
+          OPTIONS: [`Verão`, `Outono`, `Inverno`, `Primavera`]
         }
       ]
     }

@@ -3,5 +3,6 @@ export * from './BackofficeRoutes.const'
 export * from './Places.const'
 export * from './Pokemons.const'
 export * from './Home.const'
+export * from './Players'
 
 export * from './Topbar.const'

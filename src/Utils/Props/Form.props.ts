@@ -4,6 +4,7 @@ export type FormIdsType =
   | 'player_name'
   | 'player_points'
   | 'player_pronouns'
+  | 'player_season'
   | 'character_name'
   | 'character_photoplayer'
   | 'character_picture'
