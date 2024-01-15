@@ -1,22 +1,26 @@
-import { ElementRef, FC, useContext, useEffect, useRef, useState } from 'react'
+import { ElementRef, FC, useContext, useRef, useState } from 'react'
 import { PlusLg, Trash3 } from 'styled-icons/bootstrap'
 import { Pencil } from 'styled-icons/heroicons-solid'
 
 import {
   CHARACTER_ACTIONS,
+  CHARACTER_FORM_MODAL_TITLE,
   CHARACTER_PHOTOPLAYER,
   CHARACTER_REGISTERED_AT,
   CHARACTER_TITLE,
   DELETE_PLAYER_ACTION,
   EDIT_PLAYER_ACTION,
   NEW_CHARACTER_ACTION,
-  PLAYERS_POINTS
+  PLAYERS_POINTS,
+  PLAYER_FORM_MODAL_TITLE
 } from '@/Utils/Texts'
+
+import { SEASONS } from '@/Utils/Constants'
 
 import { PlayersContext } from '@/Contexts'
 import { getDate } from '@/Utils/Functions'
 
-import { NewCharacterForm } from '@/Components/App'
+import { CharacterForm, PlayerForm } from '@/Components/App'
 import { Button, Modal, Picture, Text } from '@/Components/DesignSystem'
 
 import * as Styled from './PlayersList.style'
@@ -24,30 +28,38 @@ import * as Styled from './PlayersList.style'
 export const BackofficePlayersList: FC = () => {
   const { playersState } = useContext(PlayersContext)
 
+  const modalRef = useRef<ElementRef<typeof Modal>>(null)
+
+  const [playerId, setPlayerId] = useState('')
+  const [modalType, setModalType] = useState('')
+
+  const toggleModal = (playerId: string, type: string) => {
+    if (!modalRef?.current) {
+      return
+    }
+
+    setPlayerId(playerId)
+    setModalType(type)
+    modalRef?.current?.toggleModal()
+  }
+
   if (!playersState.playersData?.length) {
     return <></>
   }
 
-  const modalRef = useRef<ElementRef<typeof Modal>>(null)
-
-  const [currentRef, setCurrentRef] = useState<ElementRef<typeof Modal> | null>(
-    null
-  )
-  const [playerId, setPlayerId] = useState('')
-
-  const toggleNewCharacter = (newPlayerId: string) => {
-    setPlayerId(newPlayerId)
-    currentRef?.toggleModal()
-  }
-
-  useEffect(() => {
-    setCurrentRef(modalRef?.current)
-  }, [modalRef])
-
   return (
     <Styled.PlayersList>
-      <Modal ref={modalRef} title="Novo jogador" hasCloseButton>
-        <NewCharacterForm playerId={playerId} />
+      <Modal
+        ref={modalRef}
+        title={
+          modalType === 'newCharacter'
+            ? CHARACTER_FORM_MODAL_TITLE
+            : PLAYER_FORM_MODAL_TITLE
+        }
+        hasCloseButton
+      >
+        {modalType === 'newCharacter' && <CharacterForm playerId={playerId} />}
+        {modalType === 'editPlayer' && <PlayerForm playerId={playerId} />}
       </Modal>
 
       {playersState.playersData.map((playerItem) => (
@@ -61,21 +73,23 @@ export const BackofficePlayersList: FC = () => {
 
               <Styled.PlayerPoints>
                 <Text size="lg">
-                  <>{playerItem.points | 0}</>
                   <>{PLAYERS_POINTS}</>
+                  <>{playerItem.points | 0}</>
                 </Text>
               </Styled.PlayerPoints>
 
-              <Picture src={`/img/${playerItem.season}.png`} w={40} />
+              <Picture src={`/img/${SEASONS[playerItem.season]}.png`} w={40} />
             </section>
 
             <section>
-              <Button onClick={() => toggleNewCharacter(playerItem.id)}>
+              <Button
+                onClick={() => toggleModal(playerItem.id, 'newCharacter')}
+              >
                 <PlusLg />
                 <Text>{NEW_CHARACTER_ACTION}</Text>
               </Button>
 
-              <Button>
+              <Button onClick={() => toggleModal(playerItem.id, 'editPlayer')}>
                 <Pencil />
                 <Text>{EDIT_PLAYER_ACTION}</Text>
               </Button>

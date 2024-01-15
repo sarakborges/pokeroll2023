@@ -1,11 +1,11 @@
 import { GenericFormStepsProps } from '@/Utils/Props'
 
-export const NEW_CHARACTER_FORM: GenericFormStepsProps = {
-  ERROR: `All required fields need to be filled before we can advance.`,
+export const CHARACTER_FORM: GenericFormStepsProps = {
+  ERROR: `Preencha todos os campos.`,
 
   STEPS: [
     {
-      SUBMIT_TEXT: `Criar novo personagem`,
+      SUBMIT_TEXT: `Enviar`,
 
       FIELDS: [
         {

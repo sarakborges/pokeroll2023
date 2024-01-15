@@ -1,3 +1,3 @@
 export { LOGIN_FORM } from './Login.form'
-export { NEW_PLAYER_FORM } from './NewPlayer.form'
-export { NEW_CHARACTER_FORM } from './NewCharacter.form'
+export { PLAYER_FORM } from './Player.form'
+export { CHARACTER_FORM } from './Character.form'

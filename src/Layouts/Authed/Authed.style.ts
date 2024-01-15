@@ -9,7 +9,7 @@ export const AuthedLayout = styled.div`
 
 export const AuthedBody = styled.main`
   flex: 1;
-  min-width: 1000px;
+  min-width: 1200px;
   max-height: 100vh;
   overflow: hidden auto;
 `

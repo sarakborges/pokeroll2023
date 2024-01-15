@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NewCharacterForm = styled.div`
+export const PlayerForm = styled.div`
   --mainColor: hsl(var(--hue) 35% 40% / 100%);
 
   --transparentButtonColor: var(--mainColor);

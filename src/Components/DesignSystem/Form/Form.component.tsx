@@ -167,7 +167,9 @@ export const Form: FC<FormProps> = ({
       stepItem.FIELDS?.forEach((fieldItem) => {
         newForm.push({
           id: fieldItem.ID,
-          value: '',
+          value:
+            formState.form.find((formItem) => formItem.id === fieldItem.ID)
+              ?.value || '',
           warning: fieldItem.REQUIRED_ERROR || '',
           warningVisible: false
         })

@@ -5,7 +5,7 @@ export const PlayerMock: PlayerProps[] = [
     id: 'asdasd',
     name: 'Sara',
     pronouns: 'ela/dela',
-    season: 'winter',
+    season: 'Inverno',
     points: 500,
     characters: [
       {
@@ -34,7 +34,7 @@ export const PlayerMock: PlayerProps[] = [
     id: 'ronny',
     name: 'Ronny',
     pronouns: 'ele/dele',
-    season: 'summer',
+    season: 'Verão',
     points: 1648746,
     characters: [
       {

@@ -13,11 +13,15 @@ import { PlayersAPI } from '@/Apis'
 
 import { PlayersContext } from '@/Contexts'
 
-import { NEW_PLAYER_ACTION, BACKOFFICE_PLAYERS_HEADER } from '@/Utils/Texts'
+import {
+  NEW_PLAYER_ACTION,
+  BACKOFFICE_PLAYERS_HEADER,
+  PLAYER_FORM_MODAL_TITLE
+} from '@/Utils/Texts'
 
 import { AuthedLayout } from '@/Layouts'
 
-import { Header, BackofficePlayersList, NewPlayerForm } from '@/Components/App'
+import { Header, BackofficePlayersList, PlayerForm } from '@/Components/App'
 import { Button, Modal, Text } from '@/Components/DesignSystem'
 
 import * as Styled from './BackofficePlayers.style'
@@ -48,8 +52,8 @@ export const BackofficePlayersTemplate: FC = () => {
 
   return (
     <AuthedLayout>
-      <Modal ref={modalRef} title="Novo jogador" hasCloseButton>
-        <NewPlayerForm />
+      <Modal ref={modalRef} title={PLAYER_FORM_MODAL_TITLE} hasCloseButton>
+        <PlayerForm />
       </Modal>
 
       <Styled.BackofficePlayersTemplate>

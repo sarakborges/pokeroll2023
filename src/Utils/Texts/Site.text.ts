@@ -5,6 +5,9 @@ export const DELETE_PLAYER_ACTION = `Excluir jogador`
 export const NEW_CHARACTER_ACTION = `Novo personagem`
 export const NEW_PLAYER_ACTION = `Novo jogador`
 
+export const PLAYER_FORM_MODAL_TITLE = `Inserir jogador`
+export const CHARACTER_FORM_MODAL_TITLE = `Inserir personagem`
+
 export const DIES_HEADER = `Rolagens de dados - Work in progress`
 export const ROLLS_HEADER = `Rolagens de pokémon`
 export const PLACES_HEADER = `Cenários`
@@ -25,4 +28,4 @@ export const HOME_TOOLS_TEXT = `Essa ferramenta foi desenvolvida pela Sara para 
 export const HOME_LINKS_HEADER = `Links úteis`
 
 export const PLAYERS_HEADER = `Characterdex`
-export const PLAYERS_POINTS = ` pontos`
+export const PLAYERS_POINTS = `Pontos: `

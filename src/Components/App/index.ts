@@ -7,5 +7,5 @@ export { Header } from './Header'
 
 export { BackofficeSidebar } from './Backoffice/Sidebar'
 export { BackofficePlayersList } from './Backoffice/PlayersList'
-export { NewPlayerForm } from './Backoffice/NewPlayerForm'
-export { NewCharacterForm } from './Backoffice/NewCharacterForm'
+export { PlayerForm } from './Backoffice/PlayerForm'
+export { CharacterForm } from './Backoffice/CharacterForm'
