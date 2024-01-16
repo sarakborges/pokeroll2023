@@ -9,6 +9,7 @@ import {
   CHARACTER_REGISTERED_AT,
   CHARACTER_TITLE,
   DELETE_PLAYER_ACTION,
+  DELETE_PLAYER_MODAL_TITLE,
   EDIT_PLAYER_ACTION,
   NEW_CHARACTER_ACTION,
   PLAYERS_POINTS,
@@ -20,7 +21,7 @@ import { SEASONS } from '@/Utils/Constants'
 import { PlayersContext } from '@/Contexts'
 import { getDate } from '@/Utils/Functions'
 
-import { CharacterForm, PlayerForm } from '@/Components/App'
+import { CharacterForm, DeletePlayer, PlayerForm } from '@/Components/App'
 import { Button, Modal, Picture, Text } from '@/Components/DesignSystem'
 
 import * as Styled from './PlayersList.style'
@@ -30,10 +31,19 @@ export const BackofficePlayersList: FC = () => {
 
   const modalRef = useRef<ElementRef<typeof Modal>>(null)
 
-  const [playerId, setPlayerId] = useState('')
-  const [modalType, setModalType] = useState('')
+  type modalTypes = 'newCharacter' | 'editPlayer' | 'deletePlayer' | ''
 
-  const toggleModal = (playerId: string, type: string) => {
+  const [playerId, setPlayerId] = useState('')
+  const [modalType, setModalType] = useState<modalTypes>('')
+
+  const modalTitles = {
+    newCharacter: CHARACTER_FORM_MODAL_TITLE,
+    editPlayer: PLAYER_FORM_MODAL_TITLE,
+    deletePlayer: DELETE_PLAYER_MODAL_TITLE,
+    ['']: ''
+  }
+
+  const toggleModal = (playerId: string, type: modalTypes) => {
     if (!modalRef?.current) {
       return
     }
@@ -49,17 +59,31 @@ export const BackofficePlayersList: FC = () => {
 
   return (
     <Styled.PlayersList>
-      <Modal
-        ref={modalRef}
-        title={
-          modalType === 'newCharacter'
-            ? CHARACTER_FORM_MODAL_TITLE
-            : PLAYER_FORM_MODAL_TITLE
-        }
-        hasCloseButton
-      >
-        {modalType === 'newCharacter' && <CharacterForm playerId={playerId} />}
-        {modalType === 'editPlayer' && <PlayerForm playerId={playerId} />}
+      <Modal ref={modalRef} title={modalTitles[modalType]} hasCloseButton>
+        {!!modalRef?.current?.closeModal && (
+          <>
+            {modalType === 'newCharacter' && (
+              <CharacterForm
+                playerId={playerId}
+                closeModal={modalRef?.current?.closeModal}
+              />
+            )}
+
+            {modalType === 'editPlayer' && (
+              <PlayerForm
+                playerId={playerId}
+                closeModal={modalRef?.current?.closeModal}
+              />
+            )}
+
+            {modalType === 'deletePlayer' && (
+              <DeletePlayer
+                playerId={playerId}
+                closeModal={modalRef?.current?.closeModal}
+              />
+            )}
+          </>
+        )}
       </Modal>
 
       {playersState.playersData.map((playerItem) => (
@@ -94,7 +118,9 @@ export const BackofficePlayersList: FC = () => {
                 <Text>{EDIT_PLAYER_ACTION}</Text>
               </Button>
 
-              <Button>
+              <Button
+                onClick={() => toggleModal(playerItem.id, 'deletePlayer')}
+              >
                 <Trash3 />
                 <Text>{DELETE_PLAYER_ACTION}</Text>
               </Button>

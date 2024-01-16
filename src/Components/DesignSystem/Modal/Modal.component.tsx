@@ -10,6 +10,7 @@ import * as Styled from './Modal.style'
 export const Modal = forwardRef<
   {
     toggleModal: () => void
+    closeModal: () => void
   },
   ModalProps
 >((modalProps, modalRef) => {
@@ -29,7 +30,8 @@ export const Modal = forwardRef<
     modalRef,
 
     () => ({
-      toggleModal
+      toggleModal,
+      closeModal
     })
   )
 

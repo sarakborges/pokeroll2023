@@ -9,10 +9,11 @@ import { Form } from '@/Components/DesignSystem'
 
 import * as Styled from './CharacterForm.style'
 
-export const CharacterForm: FC<{ playerId: string; characterId?: string }> = ({
-  playerId,
-  characterId
-}) => {
+export const CharacterForm: FC<{
+  playerId: string
+  characterId?: string
+  closeModal: () => void
+}> = ({ playerId, characterId, closeModal }) => {
   const { playersState, setPlayersState } = useContext(PlayersContext)
 
   const [characterFormState, setCharacterFormState] =
@@ -86,6 +87,8 @@ export const CharacterForm: FC<{ playerId: string; characterId?: string }> = ({
           ]
         })
       }
+
+      closeModal()
     } catch (e) {
       console.log(e)
     }

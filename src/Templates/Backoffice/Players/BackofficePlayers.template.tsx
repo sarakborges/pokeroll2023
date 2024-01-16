@@ -4,8 +4,7 @@ import {
   useCallback,
   useContext,
   useEffect,
-  useRef,
-  useState
+  useRef
 } from 'react'
 import { PlusLg } from 'styled-icons/bootstrap'
 
@@ -29,9 +28,6 @@ import * as Styled from './BackofficePlayers.style'
 export const BackofficePlayersTemplate: FC = () => {
   const modalRef = useRef<ElementRef<typeof Modal>>(null)
 
-  const [currentRef, setCurrentRef] = useState<ElementRef<typeof Modal> | null>(
-    null
-  )
   const { setPlayersState } = useContext(PlayersContext)
 
   const getPlayers = useCallback(async () => {
@@ -46,20 +42,18 @@ export const BackofficePlayersTemplate: FC = () => {
     getPlayers()
   }, [getPlayers])
 
-  useEffect(() => {
-    setCurrentRef(modalRef?.current)
-  }, [modalRef])
-
   return (
     <AuthedLayout>
       <Modal ref={modalRef} title={PLAYER_FORM_MODAL_TITLE} hasCloseButton>
-        <PlayerForm />
+        {!!modalRef?.current?.closeModal && (
+          <PlayerForm closeModal={modalRef?.current?.closeModal} />
+        )}
       </Modal>
 
       <Styled.BackofficePlayersTemplate>
         <Header
           action={
-            <Button onClick={currentRef?.toggleModal}>
+            <Button onClick={modalRef?.current?.toggleModal}>
               <PlusLg />
               <Text>{NEW_PLAYER_ACTION}</Text>
             </Button>

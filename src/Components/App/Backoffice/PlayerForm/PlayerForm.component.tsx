@@ -9,7 +9,10 @@ import { Form } from '@/Components/DesignSystem'
 
 import * as Styled from './PlayerForm.style'
 
-export const PlayerForm: FC<{ playerId?: string }> = ({ playerId }) => {
+export const PlayerForm: FC<{ playerId?: string; closeModal: () => void }> = ({
+  playerId,
+  closeModal
+}) => {
   const { playersState, setPlayersState } = useContext(PlayersContext)
 
   const [playerFormState, setPlayerFormState] = useState<GenericFormProps>({
@@ -88,6 +91,8 @@ export const PlayerForm: FC<{ playerId?: string }> = ({ playerId }) => {
           ]
         })
       }
+
+      closeModal()
     } catch (e) {
       console.log(e)
     }

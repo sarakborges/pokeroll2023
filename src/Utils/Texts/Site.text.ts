@@ -1,9 +1,12 @@
 export const SITE_TITLE = `PDOX RPG`
 
 export const EDIT_PLAYER_ACTION = `Editar jogador`
-export const DELETE_PLAYER_ACTION = `Excluir jogador`
 export const NEW_CHARACTER_ACTION = `Novo personagem`
 export const NEW_PLAYER_ACTION = `Novo jogador`
+
+export const DELETE_PLAYER_ACTION = `Excluir jogador`
+export const DELETE_PLAYER_MODAL_TITLE = `Excluir jogador`
+export const DELETE_PLAYER_TEXT = `Tem certeza que deseja excluir este jogador?\nEssa é uma ação irreversível.`
 
 export const PLAYER_FORM_MODAL_TITLE = `Inserir jogador`
 export const CHARACTER_FORM_MODAL_TITLE = `Inserir personagem`
