@@ -2,6 +2,7 @@ import { FC, useContext } from 'react'
 import { Link } from 'react-router-dom'
 
 import { PlayersContext } from '@/Contexts'
+import { SEASONS } from '@/Utils/Constants'
 import { PLAYERS_POINTS } from '@/Utils/Texts'
 
 import { Picture, Text } from '@/Components/DesignSystem'
@@ -31,14 +32,14 @@ export const PlayersList: FC = () => {
 
               <section>
                 <Text light>
-                  <>{playerItem.points | 0}</>
                   <>{PLAYERS_POINTS}</>
+                  <>{playerItem.points | 0}</>
                 </Text>
               </section>
             </main>
 
             <aside>
-              <Picture src={`/img/${playerItem.season}.png`} w={60} />
+              <Picture src={`/img/${SEASONS[playerItem.season]}.png`} w={60} />
             </aside>
           </Styled.PlayersTitle>
 
