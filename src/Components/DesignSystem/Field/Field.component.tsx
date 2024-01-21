@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
-import { Eye, EyeOff } from '@styled-icons/heroicons-solid'
-import { Question } from '@styled-icons/bootstrap/Question'
+import { Eye, EyeSlash } from '@styled-icons/heroicons-solid'
+import { QuestionMark } from 'styled-icons/evaicons-solid'
 
 import { FieldProps } from './Field.props'
 
@@ -34,7 +34,7 @@ export const Field: FC<FieldProps> = ({
       {type === 'password' && (
         <>
           <Button onClick={toggleDisplayPassword}>
-            {displayPassword ? <EyeOff /> : <Eye />}
+            {displayPassword ? <EyeSlash /> : <Eye />}
           </Button>
 
           <input {...props} type={displayPassword ? 'text' : 'password'} />
@@ -70,7 +70,7 @@ export const Field: FC<FieldProps> = ({
           {helpText && (
             <Styled.Help>
               <Styled.HelpIcon>
-                <Question />
+                <QuestionMark />
               </Styled.HelpIcon>
 
               <Styled.HelpText>{helpText}</Styled.HelpText>
